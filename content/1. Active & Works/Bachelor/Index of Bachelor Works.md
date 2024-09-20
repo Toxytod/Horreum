@@ -25,7 +25,7 @@ Here one can also find the list of all completed courses together with marks and
 - [[Philosophy First Thesis Concept]]
 - [[Horsten, L. (2010), Having an Interpretation]]
 - [[Indeterminacy in the Mind-World Relationship]]
-- [["Reality" is a Word]]
+- [[Reality is a Word]]
 - [[Realism&Causality]]
 - [[Structure on Models]]
 #### Epistemology
@@ -65,7 +65,7 @@ Followed Analysis I and Linear Algebra I but took no notes on Obsidian.
 - [[Model Theory (Lecture)]]
 - [[Advanced Set Theory (Lecture)]]
 ##### Philosophy
-- [["Reality" is a Word]]
+- [[Reality is a Word]]
 - [[An Historical Discourse on Phenomenological Platonism]]
 - [[From the ἕν to the Universe of Sets]]
 - [[Nonsense in a Phenomenal Subject]]

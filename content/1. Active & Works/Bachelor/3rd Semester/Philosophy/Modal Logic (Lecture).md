@@ -1,7 +1,8 @@
 ---
 draft: false
+date: 2024-05-22
 ---
-I followed this course during my [[3rd Semester]] of the Bachelor at the #LMU in Munich. The course has been held by Dr. Marra at the mcmp. Here I collect the notes from the material available online. I had an oral exam on the 22nd May 2024 and got 1.7; the mark counts in the Bachelor of Philosophy.
+I followed this course during my [[3rd Semester]] of the Bachelor at the [[LMU Munich]]. The course has been held by Dr. Marra at the mcmp. Here I collect the notes from the material available online. I had an oral exam on the 22nd May 2024 and got 1.3; the mark counts in the [[B.A. Philosophy (LMU)]].
 
 ### 1. Intro and Lecture
 - Modal: a mode of truth like: necessity, knowledge, belief, obligation, present
@@ -40,12 +41,12 @@ I followed this course during my [[3rd Semester]] of the Bachelor at the #LMU in
 - **Bisimulation**: denoted with $E$, is a relation between $W_1$ and $W_2$ of two Kripke Models for fixed $w \in W_1, v \in W_2$, s.t.: 
 	- $\forall_{p \in AT} w E v \Rightarrow (w \in V_1 (p) \Leftrightarrow v \in V_2(p))$ (Atomic Harmony)
 	- $wEv \land wR_1w'\Rightarrow \exists_{v' \in \mathcal{M}_2} vR_2v' \land w'Ev'$ (ZIG)
-	- $wEv \land v R_2 v' \Rightarrow \exists_{w' \in \mathcal{M}_1} wR_1 w' \land w' E v'$(ZAG)
+	- $wEv \land v R_2 v' \Rightarrow \exists_{w' \in \mathcal{M}_1} wR_1 w' \land w' E v'$ (ZAG)
 - **Pointed Model**: denoted with $\mathcal{M}, w$, is a Kripke model $\mathcal{M}$ with a designated world $w \in W$.
 - **Bisimilar**: $\mathcal{M}_1, w$ and $\mathcal{M}_2, v$ pointed models are bisimilar if there is a bisimulation $E$ s.t. $w E v$, write it $\mathcal{M}_1, w \underline{\leftrightarrow} \mathcal{M}_2, v$
 	- This is a weaker but similar notion of isomorphism:
 		- whenever it is possible to make a transition in one model, it is possible to make a matching transition in the other.
-- **Invariance Lemma** if $\mathcal{M}_1, w \underline{\leftrightarrow} \mathcal{M}_2, v$ then for all $\varphi$ we have $\mathcal{M}_1, w \models \varphi \Leftrightarrow \mathcal{M}_2, v \models \varphi$, i.e. $\mathcal{M}_1, w \equiv \mathcal{M}_2, v$..
+- **Invariance Lemma** if $\mathcal{M}_1, w \underline{\leftrightarrow} \mathcal{M}_2, v$ then for all $\varphi$ we have $\mathcal{M}_1, w \models \varphi \Leftrightarrow \mathcal{M}_2, v \models \varphi$, i.e. $\mathcal{M}_1, w \equiv \mathcal{M}_2, v$.
 	- Undefinable properties can differ in bisimilar models, those are:
 		- "having a predecessor"
 		- "uniqueness": there is exactly one world s.t. $\varphi$.
@@ -86,7 +87,7 @@ I followed this course during my [[3rd Semester]] of the Bachelor at the #LMU in
 - **Finite Model Property via Filtrations**: for $\mathcal{M}$, $\varphi$ and $\mathcal{M}'$ the filtration of $\mathcal{M}$ on the smallest subformula-closed set $K$ containing $\varphi$, then:
 	1. $\forall_{w \in \mathcal{M}} \mathcal{M}, w \models \varphi \leftrightarrow \mathcal{M}', [w] \models \varphi$
 	2. $|\mathcal{M}'| < 2^{|K|-1}$ ($|K| -1$ is the number of subformulae of $\varphi$)
-	- hence we derive $\forall_{\psi \in K}\forall_{[w] \in \mathcal{M}'} \mathcal{M}' [w] \models \psi \Leftrightarrow \psi \in [w]$
+	- hence we derive $\forall_{\psi \in K}\forall_{[w] \in \mathcal{M}'} \mathcal{M}', [w] \models \psi \Leftrightarrow \psi \in [w]$
 ### 6. Consequence Relations
 - we defined "$\models$" in Lecture 2 already (Kripke Semantics), also consider
 	- $\Gamma \models_\mathcal{K} \varphi$ iff for all frames $\mathcal{F} \in \mathcal{K}$, for all models $\mathcal{M}$ on $\mathcal{F}$, for all $w \in W$, we have: if $\mathcal{M}, w \models \psi$ for all $\psi \in \Gamma$, then $\mathcal{M}, w \models \varphi$.

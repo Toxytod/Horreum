@@ -1,7 +1,0 @@
-- **Personal Email**: simone.testino@gmail.com
-- Current **University Emails**: simone.testino@campus.lmu.de, simone.testino@students.uva.nl
-- Italian **Phone Number**: +39 339 637 9372. Please note that calls from unknown numbers are _muted_, consider leaving a message on _Whatsapp_ or wait for me to call you back. Feel free to message privately on instagram: @simone.testino alternatively.
-
-Availability can be checked by excluding the [University Schedule](webcal://p120-caldav.icloud.com/published/2/MTIyMDcyNzIxMTExMjIwN691DGTJzkaf5jl6PK5FMZ78rpEUzpC6UbwXC7-UbOycufonocLxXvUi3ox7HWNaUTgoRYeBHZkEMCdVBgKBJhc), the [Important Event's Calendar](webcal://p120-caldav.icloud.com/published/2/MTIyMDcyNzIxMTExMjIwN691DGTJzkaf5jl6PK5FMZ4fCleQk9TjJYSwDLR5i4YgMhrwGjeYuKTz6rGJHZkyE2RBgy6CQyhpUOnU3PFFfPQ) and [Futura Calendar](webcal://p120-caldav.icloud.com/published/2/MTIyMDcyNzIxMTExMjIwN691DGTJzkaf5jl6PK5FMZ4jdulLY9Bvh5-93LmDJb7LW3IcKm2fc5ZVqB7tILQ0hnRpuj4soShIOuObjCjstlc) (see [[Futura.jb]]). Online meetings can easily take place in [Google Meet Room](https://meet.google.com/qma-htgc-owt) (`qma-htgc-owt`). Any comment on the website can also be left in the [[Comments]].
-
-The **home link** of this page is: [https://mynewquartz.pages.dev](https://mynewquartz.pages.dev/) created with [Quartz 4.0](https://quartz.jzhao.xyz/) and hosted by [Cloudflare](https://dash.cloudflare.com).

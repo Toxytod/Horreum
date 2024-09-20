@@ -328,7 +328,7 @@ True love makes non-Galois couples: not normal or inseparable. And if you claim 
 				- for $\alpha \in \{\pm i , \pm j, \pm k\}$, $\langle \alpha \rangle = \{1, \alpha, -1, - \alpha\}$.
 		- $p>2$ prime, $|G| = 2p \Rightarrow G \cong \mathbb{Z}/2p\mathbb{Z}$ or $G \cong D_p$. 5.19
 		- $G$ not ab., $|G| = 8$ $\Rightarrow G \cong Q \lor F \cong D_4$ 5.20
-		- ![[IMG_1206.jpeg]]
+		- ![[Finite Groups.jpeg]]
 - **Solvable Groups**
 	- $G$ sol. if ex. $(G_i)_{i \in [0, r]}$ s.t. (i) $G_i \subseteq G$ subgr., (ii) $\{e\} = G_r \trianglelefteq ... \trianglelefteq G_1 \trianglelefteq G_0 = G$, (iii) $G_i / G_{i + 1}$ ab.
 		- $G$ ab. $\Rightarrow$ $G$ sol. ($G_0 = \{e\}$, $G_1 = G$, $G_0/G_1 \cong G$ ab.)

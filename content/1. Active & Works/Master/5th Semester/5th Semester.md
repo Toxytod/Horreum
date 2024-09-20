@@ -3,8 +3,36 @@ draft: false
 date: 2024-08-02
 ---
 
+#### List of Courses
+The semester is divided in two periods, in each one of the periods I plan to have four courses that begin and end in the period (of 6EC each) and three courses that last the whole semester. This means that I would make 24EC per period + 17EC for the latter three courses, hence for a total of 24 + 24 + 17 = 65 EC. To this, one shall add the research projects, that I plan to do for 12 - 18 EC, getting to a total of 77 - 83EC. This scenario guarantees me the possibility to write the thesis during the [[6th Semester]] and finish the [[M.Sc. Logic (UvA)]] in one year.
+###### 1st Year, 1st Period
+The courses of a period make up to 24EC + 17EC
+- [[Category Theory (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119637), 8EC*)
+- [[Introduction to Modal Logic (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118738), 6EC*)
+- [[Logic, Language and Computation (Lecture)]], ([link](), 3EC*)
+- [[Knowledge, Representation and Reasoning (Lecture)]], ([link](https://coursecatalogue.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119597), 6EC)
+- [[Philosophy of Science (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119209), 6EC)
+- [[Meaning, Reference and Modality (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/114708), 6EC)
+- [[Mathematical Proof Methods for Logic (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119339), 6EC)
+###### 1st Year, 2nd Period
+The courses of a period make up to 24C + 17EC
+- [[Category Theory (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119637), 8EC*)
+- [[Introduction to Modal Logic (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118738), 6EC*)
+- [[Logic, Language and Computation (Lecture)]], ([link](), 3EC*)
+- Proof Theory (Lecture) ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118880), 6EC)
+- Topics in Modal Logic (Lecture), ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119338), 6EC)
+- Philosophical Logic (Lecture) ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118758), 6EC)
+- Dynamic Epistemic Logic ([link]() 6EC)
+###### 1st Year, 3rd Period
+Here I list the potential research projects
+- [[Structuralism & Categories (Homepage)]]
+	- [[Horsten, L. (2010), Having an Interpretation]]?
+---
+## Decision Process
+Here I keep the reasoning I made for getting to the full list of courses I took in my 5th Semester
+
 During my 5th semester I will both need to finish (or continue) my [[B.Sc. Mathematics (LMU)]] and begin my [[M.Sc. Logic (UvA)]]. In this page I lsit the courses I plan to follow for both degrees, since I will live in Amsterdam, my main focus will be on the M.Sc. but I will study some courses for the B.Sc. and give the exams once I get to Munich by the end of the German semester which is far later the end of the Dutch semester. It is also relevant to consider that my average ECTS per semester is far above the recommended or typical one (see [[Bachelors Outline]]).
-## [[M.Sc. Logic (UvA)]] 5th-6th Sem. Courses
+### [[M.Sc. Logic (UvA)]] 5th-6th Sem. Courses
 First I list all options I have and courses I would like to take, I paste the links from the [Courses List](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course). There are also courses that will be offered during my [[6th Semester]].
 ##### Very First Priority
 These are courses that I would follow even if couldn't count as credits. Other than in  [Philosophy of Mathematics](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/114778), I have no basis in [Type Theory](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119655), [Topos Theory](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119390),  [Proof Theory](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118880) and [Recursion theory](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118711) though I heard frequently about these fields and need an introduction to those. I also never had a proper course in [Philosophy of Mathematics](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/114778) nor in [Philosophy of Science](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119209).
@@ -42,7 +70,7 @@ These are courses that I would follow even if couldn't count as credits. Other t
 - [Logic, Language and Computation](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118847)
 - [Quantum Information Theory](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119392)
 - [Mathematical Proof Methods for Logic](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119339)
-### 5th Semester's Periods (max. list)
+#### 5th Semester's Periods (max. list)
 Now I consider mostly the courses in [[5th Semester#Very First Priority]] and [[5th Semester#First Priority]] that take place in the first semester (i.e. my [[5th Semester]]) and divide them in the three parts of the Dutch semester, since some of the courses may cover more than a period, the the lists are not disjoint. I also order the courses for priority in each list and give the number of EC in parenthesis (avoiding double counting). Consider that this is meant to be a maximal list in which I count all courses I am interested in, there will most probably be relevant cuts before the [[5th Semester#Final Choice of Courses]], The full list of courses and EC can be found here: [Sheets: M.Sc. Logic Courses Plan](https://docs.google.com/spreadsheets/d/1VPLcicHYGIoovdhYGmbx2yeKaj3IHQ_zJul976Iqbfw/edit?usp=sharing) under 'max. list'.
 ##### 1st Period
 1. [Philosophy of Science](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119209) (6)
