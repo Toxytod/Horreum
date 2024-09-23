@@ -3,7 +3,7 @@ title: Simone Testino
 draft: false
 date: ""
 ---
-In this website you can find both external links, like [Google](https://www.google.com), or internal links, like [[Index of Bachelor Works]], explore those pages by clicking on the links. On the right you can find the table of contents and on the left you can explore all folders uploaded on the website. In this website I mainly upload my little academic work where most can currently be found at [[Index of Bachelor Works]] and in [[M.Sc. Logic (UvA)]], for a shorter view see [[Curriculum_Vitae.pdf]].
+In this page you can find both external links, like [Google](https://www.google.com), or internal links, like [[Index of Bachelor Works]], explore those pages by clicking on the links. On the right you can find the table of contents and on the left you can explore all folders uploaded on the website. In this website I mainly upload my little academic work where most can currently be found at [[Index of Bachelor Works]] and in [[M.Sc. Logic (UvA)]], for a shorter view see [[Curriculum_Vitae.pdf]].
 
 The reader can leave [[Comments]] and is given my [[Contacts]], I am happy to discuss and review any content on this website. Here you can also find pages on different topics that have little or nothing to do with my academic life, those are collected in [[ExAcademia Index]]. The rest of this page is dedicated to a brief overview on my life up to today.
 ### School Years
