@@ -76,4 +76,4 @@ I followed this course by, Prof. Benno van den Berg during my [[5th Semester]] a
 	- for $F, G: \mathcal{C} \to \mathcal{D}$ a nat.tr. $\sigma : F \Rightarrow G$ is a fam. of morph. $\forall_{C \in \mathcal{C}_0}\sigma_C : F(C) \to G(C)$ s.t.
 		1. for $\forall_{C, C' \in \mathcal{C}_0} \exists_{\alpha \in Hom_\mathcal{C}(C, C')} Diag.Comm.$, (Naturality Condition)
 			1. $Diag$: $F(C) \to^{F(\alpha)}FC' \to^{\sigma_{C'}} G(C')$ and $F(C) \to^{\sigma_C} G(C) \to^{G(\alpha)} G(C')$ 
-- 
+	- if $\sigma: F \Rightarrow G$ in $[\mathcal{C}, \mathcal{D}]$ is iso. iff $\forall_{C \in \mathcal{C}_0} iso.(\sigma_C)$ 
