@@ -1,14 +1,22 @@
 ---
 draft: false
 ---
-On this page, I provide both the lesson materials I have produced and briefly present my work with [[Futura]] regarding public competition preparation. Since September 2024, I have been a teacher of mathematics, logic, and physics, delivering a 90-minute lesson each week. The page dedicated to students is [[ADT Forze Armate]].
+On this page, I provide both the lesson materials I have produced and briefly present my work with [[Futura]] regarding public competition preparation. Since September 2024, I am a teacher in mathematics, logic, and physics, delivering a 90-minute lesson each week. The page dedicated to students is [[ADT Forze Armate]].
 ### Materials List
 In this section, I divide the [relevant topics](https://docs.google.com/spreadsheets/d/1eMpxxHZ-sKFeJQUStWW4EmgYVRKeH61FAxySaHhZHes/read) for different competitions and include the slides I have prepared for each of these lessons.
 ##### Mathematics
-- [Overleaf: Trigonometry](https://www.overleaf.com/read/nwgnjmprzjpj#e27ac6)
-- 
+- **Arithmetic**
+	- [Overleaf: ADT Aritmetica I](https://www.overleaf.com/read/hjfbmntzrwyg#fb9f3f)
+	- [Overleaf: ADT Aritmetica II](https://www.overleaf.com/read/htbthsqrcvnh#d40cfc)
+- **Algebra**
+	- [Overleaf: ADT Algebra I](https://www.overleaf.com/read/hfjspckftwgz#f3a0b2)
+	- [Overleaf: ADT Sistemi](https://www.overleaf.com/read/fkghdjhqngzj#4f7f8f)
+- **Geometry**
+	- [Overleaf: ADT Trigonometria](https://www.overleaf.com/read/nwgnjmprzjpj#e27ac6)
 ##### Logic
+- [Overleaf: ADT Logica Numerica](https://www.overleaf.com/read/hjfbmntzrwyg#fb9f3f)
 ##### Physics
+- [Overleaf: ADT Fisica Newtoniana](https://www.overleaf.com/read/qdkyxfwcwtqh#bc7f66)
 
 #### $\LaTeX$ Code
 I suggest to compile this code using [Overleaf](https://www.overleaf.com/), the following passages are crucial for the proper compilation of the code:
