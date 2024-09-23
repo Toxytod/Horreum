@@ -4,7 +4,7 @@ date: 2024-09-09
 ---
 I followed this course by, Dr. Sebastian de Haro Ollé during my [[5th Semester]] at the [[University of Amsterdam]] for my [[M.Sc. Logic (UvA)]].
 #### Assignments
-- [Overleaf: PhiSci, 1](https://www.overleaf.com/read/jkpfpngvrkbp#7951b6)
+- [Overleaf: PhiSci, 1](https://www.overleaf.com/read/jkpfpngvrkbp#7951b6), mark: 10
 - [Overleaf: PhiSci, 2](https://www.overleaf.com/read/kvkkpywcnkxm#849ccc)
 - [Overleaf: PhiSci, 3](https://www.overleaf.com/read/cccptfntkrgq#b92b5f)
 - [Overleaf: PhiSci Presentation](https://www.overleaf.com/read/fdmmwvxcndnt#a582c8)

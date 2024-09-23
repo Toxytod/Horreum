@@ -99,4 +99,6 @@ num(1..2) %all nums in between
 	- Cardinality constrain: `1 { a; b; c } 2` (take only solutions with at least 1 true variables and maximally 2).
 - `s :- p(X) : q(X)` stands for ``s :- p(1), p(2)`` \[V. S. 32\]
 - one-to-one mappings \[V. S. 33\]
-- 
+#### 23.09, VI. Games with ASP
+- we use `T = #sum {C, X, Y, Z : P(X), P(Y)}` sums only `C`s but allows the sum of two equal `C`s if the `X, Y, Z` are different.
+- `D = #count { M : edge(N, M, C)}` workds similarly, or also `#max`
