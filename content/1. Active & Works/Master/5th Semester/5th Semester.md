@@ -26,7 +26,6 @@ The courses of a period make up to 24C + 17EC
 ###### 1st Year, 3rd Period
 Here I list the potential research projects
 - [[Structuralism & Categories (Homepage)]]
-	- [[Horsten, L. (2010), Having an Interpretation]]?
 ---
 ## Decision Process
 Here I keep the reasoning I made for getting to the full list of courses I took in my 5th Semester
