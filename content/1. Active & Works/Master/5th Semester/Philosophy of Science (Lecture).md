@@ -95,3 +95,46 @@ Here I summarise the content of the lecture and state brief remarks on the paper
 	1. _Empirically equivalent_: same observational sentences
 	2. _Theoretically inequivalent_: different theoretical sentences
 	- hence theory is under-determined by the empirical data.
+#### 23.09, V. Scientific Explanation & Understanding
+- before '48: explanation is not a philosophical topic for logical empiricists.
+- _C. Hempel_, 1948: covering law model, epistemic explanation
+	- deductive argument: conditions & general laws explain (deductively prove) the phenomenon.
+		- only general laws prove only general things
+	- Conditions of adequacy
+		1. _logical consequence_ {can you actually formalise the conditions? perhaps the general laws}
+		2. _general law_, to guarantee necessity {trivially take spatio-temporally bounded general laws?}
+		3. explanans must have _empirical content_
+		4. _true_ metaphysically {empirically accessible?}
+	- No need of causation, this is more general
+	- Problems:
+		- It is not clear what explains what, one can change arguments and have symmetries
+		- One get to correlations rather than explenations
+	- Alternatives
+		- _causation_ is needed to explain
+			- Hume: deletes cause
+				- Hume, _counterfactual_: if no $A$, then no $B$, hence $A$ causes $B$
+				- Hume, _regularity theory_: usually the sun rises.
+			- De Regt: causation is one way, not the only one
+		- _unification_ of how phenomena fit in a broader pattern
+			- {this could be deductive, general law give the frame, conditions the instance
+			- -: not really, not as formal and you can already assume $E$ to have happened}
+		- _pragmatic_, basically contextualism
+		- _scientific explanation_ requires understanding
+- Understanding:
+	- _Hempel's Eliminativism_: understanding is matter of the subject, it is psychological.
+	- _Khalifa's Reductvism_: having an explanation could be enough
+		- _Lipton_: need to know the cause
+		- _De Regt_: have an oracle who, you know, tells you the truth, you have still no understanding
+	- _Carnap_: in order to have understanding one should
+		1. capability of _use_ for the description of facts
+		2. _metaphysical_ understanding (refused)
+		3. knowing semantic _truth conditions_
+	- _van Fraassen_:
+		- explanation & understanding are part of the pragmatic, subjective.
+		- explanation is irreducible and special to each subject.
+		- explanation is not a relation between _theory_ and _fact_, it is a three term, with also _context_.
+	- _De Regt_: _Pragmatic use of Understanding_
+		- _macro-level_: science as a whole
+		- _meso-level_: scientific community
+		- _micro-level_: individuals
+		- Closely related to 

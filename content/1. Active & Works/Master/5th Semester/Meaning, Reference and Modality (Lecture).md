@@ -69,7 +69,31 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 	- In some sense $b \rightsquigarrow \bigwedge \{P : P(b)\}$ 
 		- cannot be "$=$"
 	- _Solopsism_: deny most things, _presentist_ the future and past, _actualist_ is inclusive
-#### 20.09, IV A. Prior
+#### 20.09, IV. A. Prior
+Brief and not too exciting lecutre
 - He gave foundations of temporal logic as a modal logic
 - Prior: _Wheresoever then is whatsoever is, it is only as present_ (mentioning S. Augustine)
-- 
+#### 24.09, V. Kripke & Modal Predicate Logic
+- Lecture based on _Naming and Necessity_, seen mostly in [[The Frequency of Telling Stories]].
+- _a priori_ $\not \Leftrightarrow$ _necessary_
+	- Goldenbach conjecture is nec. true or nec. false, it does not imply anything epistemic
+- After Frege:
+	- _Russel_: _Sinn_ can be captured in a _Description_
+	- _Searl_: we need to have a _cluster_ of description of the same designator in different modalities
+	- _Kripke_: names are rigid designators, definite descriptions must not be
+		- _rigid designator_: "_if in every possible world it designates the same object_" (NN, p.48)
+			- we need to make sense of "_criteria of transworld identity_"
+			- Possible Worlds themselves are _stipulated_ because we can rigidly refer to objects
+				- "if Biden didn't win elections", such a description of a possible world is possible _because_ we can _rigidly refer_ to Biden. (NN, p.49)
+				- Q: if Biden rigidly refers to Biden, then Biden is necessarily named "Biden"
+					- A: Biden is nec. Biden, but Biden is not nec. named "Biden". Two different languages, we can use our-own for practical purposes, must not be the same used in other worlds. "The person called Biden" is not a rigid designator.
+					- {Q: should we develop a meta-language or just use the one true in @?}
+				- Q: Sinn and Bedeutung of rigid names?
+					- A: Bedeutung makes no sense, different domains, Sinn is not the proper way to think about it, (against Lewis) possible worlds are not already there, they are stipulated after we use names rigidly, that is what refers necessarily to objects in other worlds.
+- Predicate Modal Logic, $\mathcal{L}_{PML}$ 
+	- $D$ is a domain function, s.t. for each world $w$, $D_w$ is a domain.
+	- $I$ interpretations are _rigid_
+	- Valuations are _partial_, i.e. $\mathcal{M}, w, V \models \varphi$ or $\mathcal{M}, w, V \models \lnot \varphi$ or neither
+		- {Q: $\not \models$ or $\models \lnot \varphi$?}
+			- A: the revers models is the semantic of "$\lnot \varphi$"
+	- We use Weak Kleene Truth tables

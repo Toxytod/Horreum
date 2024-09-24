@@ -67,7 +67,7 @@ wet(X) :- rainy(X).
 	- _Minimal Model_ is a model s.t. any subset of it is not a model
 		- for positive programs there is one unique minimal model.
 	- _Supported Model_: for each $a \in M$, there is a rule $a \leftarrow \beta$ in $P$ s.t. $M$ makes $\beta$ true
-- Normal Logic Programs
+- _Normal Logic Programs_ (NLP)
 	- `not` means $\lnot$
 	- `a :- b_1, ..., b_n, not c_1, ..., not c_n` is allowed
 	- we lose the unique-minimal-model property
@@ -75,6 +75,10 @@ wet(X) :- rainy(X).
 	1. draw the dependency graph \[S. 16\]
 	2. check that there is no cycle of negative arrows
 #### 16.09, V. ASP & VI. 
+- For a NLP $P$ and an interpretation $M$, then $P^M$ s.t. 
+	1. remove rules with `not a` in the body if $a \in M$
+	2. remove literals `not b` from all rules if $b \not \in M$
+- An _Answer Set_ (AS) of $P$ is a minimal model of $P^M$
 - **Lego Approach**: learn some pieces that improve ASP vocabulary
 ```ASP
 num(1)

@@ -21,10 +21,10 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 	- \[for $k \in ON$ the maximal complexity of a formula in $\mathcal{L}^k_{ML}$, a $k$-inductively defined modal logic, then $\forall_{x \in M}\forall_{x' \in M'} \mathcal{M}, x \equiv \mathcal{M}', x' \Rightarrow \mathcal{M}, x \underline{\leftrightarrow}^k \mathcal{M}', x'$ for $\underline{\leftrightarrow}^k$ the $k$-bisimulation, as defined in: [Overleaf: IML, 1](https://www.overleaf.com/read/qdtknhmjymqt#0a2005)\]
 #### 17.09, Filtrations
 - A (generated) submodel $\mathcal{M}'$ of $\mathcal{M}$ is a model s.t.
-	1. ==?==
+	1. $W' \subseteq W$ 
 	2. $R' = R \cap (W' \times W')$
 	3. $V'(p) = V(p) \cap W'$ 
-	(4.) $(x \in W' \to ...) ==?==
+	(4.) $(w \in W' \land wRv) \to v \in W'$ 
 	- $\mathcal{M'}$ is gen.sub, of $\mathcal{M}$, $x \in W'$, then $\mathcal{M}, x \underline{\leftrightarrow} \mathcal{M}', x$
 	- for $\mathcal{M}$, $\mathcal{M}'$ models, $f: W \to W'$ is a bounded morphism if:
 		1. $\forall_{p \in Prop}\mathcal{M}, x \models p \Leftrightarrow \mathcal{M'}, f(x) \models p$
