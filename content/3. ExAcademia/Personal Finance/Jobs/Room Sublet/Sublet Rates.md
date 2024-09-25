@@ -8,38 +8,41 @@ This page provides all the necessary information regarding the payment options f
 A €200 deposit is required, it can be paid upon arrival once you are sure that the room satisfies your expectations. I have chosen €200 as it is the maximum value of any single item present in the room. The deposit will be refunded at the end of your stay, provided no damage is done to the room.
 ## 💵 Rates
 For a single guest:
-- **Single Night:** €30 per night  
-- **Three Nights:** €25 per night  
-	- _Total: 3 nights × €25 = €75_
-- **Five Nights:** €22 per night  
-	- _Total: 5 nights × €22 = €110_
-- **Seven Nights:** €20 per night  
-	- _Total: 7 nights × €20 = €140_
+- **Single Night:** €35 per night  
+- **Three Nights:** €30 per night  
+    - _Total: 3 nights × €30 = €90_
+- **Five Nights:** €27 per night  
+    - _Total: 5 nights × €27 = €135_
+- **Seven Nights:** €25 per night  
+    - _Total: 7 nights × €25 = €175_
 
 For two guests:
-- **Single Night:** €45 per night  
-	- _€22.50 per person per night_
-- **Three Nights:** €40 per night  
-	- _Total: 3 nights × €40 = €120_  
-	- _€20 per person per night_
-- **Five Nights:** €37 per night  
-	- _Total: 5 nights × €37 = €185_  
-	- _€18.50 per person per night_
-- **Seven Nights:** €35 per night  
-	- _Total: 7 nights × €35 = €245_  
-	- _€17.50 per person per night_
+- **Single Night:** €55 per night  
+    - _€27.50 per person per night_
+- **Three Nights:** €50 per night  
+    - _Total: 3 nights × €50 = €150_  
+    - _€25 per person per night_
+- **Five Nights:** €45 per night  
+    - _Total: 5 nights × €45 = €225_  
+    - _€22.50 per person per night_
+- **Seven Nights:** €40 per night  
+    - _Total: 7 nights × €40 = €280_  
+    - _€20 per person per night_
 
 For rates for more than two people, please contact me: [[Contacts]].
 ## 🎉 Special Rates
-- **21st December - 6th January:** €17.50 per night  
-	- _Total: 17 nights × €17.50 = €297.50_
+These are block rates for the period from **18th December to 6th January**. The rates apply only if you rent the entire block; otherwise, the discount will not apply.
+
+For a single guest:
+- **18th December - 6th January:** €22 per night  
+    - _Total: 17 nights × €22 = €374_
 
 For two guests:
-- **21st December - 6th January:** €35 per night  
-	- _Total: 17 nights × €35 = €595_  
-	- _€17.50 per person per night_
+- **18th December - 6th January:** €40 per night  
+    - _Total: 17 nights × €40 = €680_  
+    - _€20 per person per night_
 
-In case you want to have the whole room for yourself, without even me in it, read this: [[Stay_in_Amsterdam__Xmas.pdf]].
+If you wish to have the whole room to yourself, with no one else (not even me) present, see [[Stay_in_Amsterdam__Xmas.pdf]] and make sure to let me know at least weeks in advance: [[Contacts]].
 ## 💳 Payment Options
 
 - **Cash:** To be paid in EUR only.

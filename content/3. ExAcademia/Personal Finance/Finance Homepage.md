@@ -32,6 +32,8 @@ I consider valuations of the US too high, and partially this applies to the EU m
 #### 09.2024
 I didn't do any big change in the asset allocation. I am planning to invest the current liquidity, still maintaining the hope in the Chinese market, despite the absence of good news and losing confidence in CSIQ, which reached another low, making up to -55% from the current average entry price.
 
+I finally chose to sell JD (the day before it did 7% -\_-) and decided to keep BABA and BIDU as the only two single Chinese stocks. 
+
 ## Cash Flow
 ### `Reg_ME` & `Reg_MI`
 Another crucial function of the [Financial Spreadsheet](https://docs.google.com/spreadsheets/d/17oMLO9vAbR9Kw82BlghC2f68sUaXR09EbZ48AdeFibo/edit?usp=sharing) is to make [[Finance Homepage#Projections]] of the capital in both the short and long term; in order to allow that, it is essential to first keep record of the regular monthly expenses and income.
