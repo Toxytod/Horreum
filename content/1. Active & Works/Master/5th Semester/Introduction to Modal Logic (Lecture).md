@@ -1,6 +1,6 @@
 ---
 draft: 
-date: 2024-09-03
+date: 2024-09-30
 ---
 I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester]] at the [[University of Amsterdam]] for my [[M.Sc. Logic (UvA)]]. I covered most of the material already in [[Modal Logic (Lecture)]]. I paired for exercises with Josje van der Laan.
 #### Assignments
@@ -45,3 +45,12 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 		3. $xRy \Rightarrow [x] R^f [y]$ 
 		4. $[x]R^f[y] \Rightarrow \forall_{\lozenge \varphi \in \Sigma}(\mathcal{M}, y \models \varphi \Rightarrow \mathcal{M}, x \models \lozenge \varphi)$
 	- $\forall_{\varphi \in Sigma} \forall_{x \in W} \mathcal{M}, x \models \varphi \Leftrightarrow \mathcal{M}^f, [x] \models \varphi$
+#### 24.09, IV.
+- a tree $(T,S)$ is a frame s.t. 
+	1. $T$ is _rooted_ (i.e. $\forall_{t \in T}\exists!_{r \in T} rS^*t$)
+		1. for $S^*$ the refl.trans.cl. of $S$
+	2. $\forall_{t \in T} t \not = r \to \exists!_{t' \in T} t' S t$
+	3. $\forall_{t \in T} \lnot t S^+ t$
+		1. for $S^+$ the trans.cl. of $S$
+- for $\mathcal{M} = (W, R, V)$, ex. $\mathcal{T} = (T, S, V)$ s.t. $f: T \to V$ surj. bounded morphism.
+- a path in $\mathcal{M}$ is a seq. $(r, u_1, ..., u_n)$ s.t. $u_i R u_{i + 1}$ 
