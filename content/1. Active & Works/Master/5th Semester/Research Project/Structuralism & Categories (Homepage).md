@@ -2,7 +2,9 @@
 date: 2024-09-13
 title: Structuralism & Categories
 ---
-I propose the following as a research project I want to pursue in the thin, though currently wider than ever, intersection between Philosophy of Science and Category Theory. I will propose this research project for the [[5th Semester#1st Year, 3rd Period]] of my [[M.Sc. Logic (UvA)]] to both Dr. Sebastian de Haro Ollé (lecturer of [[Philosophy of Science (Lecture)]]) and Prof. Benno van den Berg (lecturer of [[Category Theory (Lecture)]]), presenting it as a joint project. The reader, whoever they may be, shall always feel encouraged to leave [[Comments]].
+I propose the following as a research project I want to pursue in the thin, though currently wider than ever, intersection between Philosophy of Science and Category Theory. I will propose this research project for the [[5th Semester#1st Year, 3rd Period]] of my [[M.Sc. Logic (UvA)]] to both Dr. Enrico Cinti (researcher in Philosophy of Science) and Prof. Benno van den Berg (lecturer of [[Category Theory (Lecture)]]), presenting it as a joint project. The reader, whoever they may be, shall always feel encouraged to leave [[Comments]]. In particular, there are dedicated pages:
+- [[Structuralism & Categories (Supervisor's Page)]]
+- [[Structuralism & Categories (Team Page)]]
 
 In this page I begin by underlying the [[Structuralism & Categories (Homepage)#Personal Sources of the Project]], i.e. the competence and knowledge I have already developed and obtained in the field, which will work as a grounding structure of the research project. Consequently, I present more substantially the [[Structuralism & Categories (Homepage)#Project Structure & Goals]].
 #### Personal Resources of the Project
@@ -22,29 +24,4 @@ More on the categortical side of philosophy of science I consider [Morita Equiva
 ##### Hours of Work, Credits and Expected Length
 As mentioned above, I expect to invest a considerable amount of time in the project, inf act I do not exclude to begin working for it before the end of the 2nd period. I expect the total length of the first part not to be below 20 pages, while the second may vary substantially (still comparable to the former) depending on the technical results I will get and skills I will develop, in a field which, in the end, is still new to me. I expect therefore the project to be around 20 EC (I am making this guess based on the comparison with the time spent for other courses, pages that one is expected to write and the time I foresee to invest in it, though I have no experience nor possibility of comparing the size of this project with others, hence I expect the involved professors to give me some indications on this).
 ##### Teamwork
-Both the large amount of work I want to invest in the project and the necessity of having competence in two distant branches of human knowledge seem not to encourage the involvement of other students in the project. Despite this, I plan to present some portions of the project, limiting the required skills to one of the two fields, to some other students in the hope of getting some more hands and brains to further enlarge the scope of the research.
-
----
-##### First Organisation Steps towards Realisation
-1. Ask Dr. Sebastian de Haro Ollé and Prof. Benno van den Berg for approval
-	1. Is it doable with satisfactory depth and completeness in 6 weeks? (I am counting Christmas vacation, in which I will begin reading the literature and determine potential research tracks for other students to collaborate)
-	2. Do you have any literature to suggest? (Perhaps other related topics, or further papers in the same field. It would also help to have, particularly on the categorical side, some introduction to the technical skills required)
-	3. Do you have any member of ILLC or other researcher to suggest? (Could be both for co-supervision or just for a one-time discussion on the topic with me and potentially other students involved)
-	4. Does the field I described well fit your research interests? (Connected to the question above, if the field were not within your field of research, do you have somebody else to suggest, within or outside of the ILLC?)
-	5. How many EC would you estimate? (Considering the remarks made above on the amount of pages the work will consist of, hours I plan to invest in and papers I plan to read before)
-		6. How does participation of other students influence it? (considering that it would imply a proportionally larger amount of work, not delegation of present work but development of new ideas and branches of research)
-2. Team Coordination
-	1. Begin to read some literature, whatever is vaguely needed to make the sketch of a plan.
-	2. Share this page to the group-chats of Category Theory and Philosophy of Science and search students willing to join the project.
-		1. Make a [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdx_ATY579NgdwSeGapf1_-P9XYiqg6BDwgNxsD1U4_V4FzEA/viewform?usp=sf_link) with interests, competence area and background and select in case too many people wanted to participate.
-	3. Schedule from two to five discussion-meetings with the other students on those papers that will be relevant for the project, in order of priority:
-		1. [[Halvorson, H. (2012), What Scientific Theories Could not Be]]
-		2. [Criteria of Identity and Structural Ontology](https://www.researchgate.net/profile/Hannes-Leitgeb-2/publication/31349684_Criteria_of_Identity_and_Structuralist_Ontology/links/00463534fdb154f8b7000000/Criteria-of-Identity-and-Structuralist-Ontology.pdf?origin=publicationDetail&_sg%5B0%5D=ulrFKJxSo5jaNeCcC_G-SfIm5cfSOghXDvamINp01-TwUpbBUL2LZjzXUmEE_TSkJL4KY8RIQLMb78iVP7Yv9g.d4mRcbQrbo2MXHb7VkwdtNFfg3MZgisp3B7yGzzuAeAobShv-_XM3l4jFIBw5uU7fLgm5lNQGoWR08qbtX3w3g&_sg%5B1%5D=h_I-RdO0AXbmNUQr62JiRf-9ii05sny7fCG1xftvDZBrgPNtrjcbRebTln1M1wXcSNT3eNjdXzOCy3RgIQZTt-cSGX6SxWoaeZzrtxlZotb0.d4mRcbQrbo2MXHb7VkwdtNFfg3MZgisp3B7yGzzuAeAobShv-_XM3l4jFIBw5uU7fLgm5lNQGoWR08qbtX3w3g&_iepl=&_rtd=eyJjb250ZW50SW50ZW50IjoibWFpbkl0ZW0ifQ%3D%3D&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIiwicG9zaXRpb24iOiJwYWdlSGVhZGVyIn19) (?)
-		3. One text selected by [[Bas van Fraassen]]
-		4. Eventually, for discussion: (agree or disagree with my strong position)
-			1. [[Structure on Models]]
-			2. [[Horsten, L. (2010), Having an Interpretation]]
-	4. Have a final discussion so that, by the end of it, only those students that have their own topic of research are selected and combine a complete plan of the whole research project.
-		1. Each student shall have their own plan and schedule
-			- This will be submitted before the begin of the Christmas Vacation to the supervisors so that they can estimate the EC that will be assigned to each one of the students.
-		2. We organise some check-points during the 3rd period so that we can discuss the present state of the work.
+Both the large amount of work I want to invest in the project and the necessity of having competence in two distant branches of human knowledge seem not to encourage the involvement of other students in the project. Despite this, I plan to present some portions of the project, limiting the required skills to one of the two fields, to some other students in the hope of getting some more hands and brains to further enlarge the scope of the research. More on the team can be found on the dedicated page: [[Structuralism & Categories (Team Page)]].
