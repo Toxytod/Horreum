@@ -1,3 +1,6 @@
+The PDF of the paper can be found [here](https://philsci-archive.pitt.edu/8940/1/semantic-defect-revised2.pdf). My comment and understanding of the paper can be found in the essay [[Structure on Models]] and what follows are some other, mostly related, remarks.
+
+---
 Here I collect brief notes on particular topics connected or of particular interest for my [[First Bachelor Thesis Concept]]. On the same topic, see [[Halvorson, H. (2013), The semantic view, if plausible, is syntactic]]. For other papers by the same author, visit [[Hans Halvorson]]
 ### Identity Crisis for Theories
 In this part of the paper Halvorson presents three possible identity criteria for theories in the semantic view: for $mod(T) := \{\mathcal{M}$ is a model $: T \models \mathcal{M}\}$.
