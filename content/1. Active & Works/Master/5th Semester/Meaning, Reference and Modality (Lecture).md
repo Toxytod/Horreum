@@ -11,13 +11,20 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 - [Overleaf: MRM, 3](https://www.overleaf.com/read/fvzshcmnnfck#558c90)
 ## Lecture Notes
 #### 10.09, I. Introduction
-- **Extensional Semantics**: meaning is reference
+- **Formal Semantics**
+	- In order to do any formal semantics, one should assume:
+		1. There is structure in the world
+		2. There is meaning in the world
+		3. There is structure in meaning
+			- doubtable. Compositionality, entailment, aprioricity
+- _Extensional Semantics_: meaning is reference
+	- _einen Satz verstehen, heißt, wissen was der Fall ist, wenn er wahr ist._ (L. Wittgenstein)
 	- $M, g \models \phi$; $M \models \phi$; $\models \phi$; $\Gamma \models \phi$
 		- (satisfaction, truth, validity, entailment)
 	- "Fido"$\mapsto Fido$
 		- "Fido is a boy"$\mapsto 0$ iff $Fido \not \in Boys$ 
 		- "All boys swim"$\mapsto 1$ iff $Boys \subseteq Swimmers$ 
-	- Principles:
+	- _Extensionality Principles_:
 		- $t = t' \models \varphi \leftrightarrow [t'/t]\varphi$
 		- $\forall_{x}(A(x) \leftrightarrow A'(x)) \models \varphi \leftrightarrow [A'/A]\varphi$
 		- $\psi = \psi' \models \varphi \leftrightarrow [\psi'/\psi]\varphi$
@@ -28,51 +35,98 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 		- _Existence_: Rumpelstiltskin does not exist
 			- you cannot use the word without reference
 		- _Substitution_: it is necessary that 9 is 9, planets are 9, hence nec. there are 9 planets
+	- possibility of a sentence is given by:
+		1. the atomic propositions that are true there
+			- determined by the valuation function $V_w(p) \in \{0, 1\}$
+		2. what is its space of possibilities
+			- determined by $R$
 - _intensional semantics_: meaning is determination of reference
+	- _meaning as information_ (J. Hintikka)
 	- $M, w , g \models \phi$; $M, w \models \phi$; $(F) \models \phi$; $\Gamma \models \phi$
 - _dynamic semantics_: meaning is potential to update information
 	- $M, \langle g , h \rangle \models \phi$; $M, g \models \phi$; $\models \phi$; $\vec{\gamma} \models \phi$ 
-- *Frege*: Sinn und Bedeutung
-	- Morning/Evening star
-#### 13.09, II. Basics in Modal Logic
-- Already seen material
+#### 13.09, II. Frege & Basics in Modal Logic
+- Basic Modal Logic: already seen material
 	- [[Modal Logic (Lecture)]]
 		- [[Modal Logic (Lecture)#13. Epistemic Logic]]
 	- [[Introduction to Modal Logic (Lecture)]]
-- **Frege**: every word has a reference (B.) and a meaning (S.)
-	- a thought (G.) is _what is true or false_
-		- Examples
-			- $a^2 + b^2 = c^2$
-			- Venus follows an elliptic orbit around the sun
-			- Circe has drugged Odysseus' men
-		- not a picture, not a sentence, that thing that is true or false
-			- Thought and truth cannot be better defined.
-		- _unchangeable_, not psychological but "metaphysical"
-			- very close to _modern Platonism_
-				- thoughts are metaphysical and hyperuranical entities
-					- real, with determinate truth values and consequences relations, timeless and without location.
-		- everything that is content dependent must be encoded in the thought so that the thought is context-indipendent.
-			- (this can, for instance, not happen with the representation of yourself, see [[The Frequency of Telling Stories]])
+- **Frege**: _Gedanke are neither things from the external world, not Vorstellungen. A third realm has to be acknowledged._
+- Each word (Syntax) is mapped to a Bedeutung (World) and a Sinn (3rd Realm)
+- If $a = b$ then $S(a) = S(b)$ (Compositionality)
+	- Clar Kent works for the Local Herald $\not =$ Superman works for te Daily Planet
+		- Same Bedeutung (compositionality on Bedeutung applied)
+		- Different Sinn, no compositionality on Sinn has been applied
+			- Hence _Gedanke_ is not Bedeutung.
+- _Sinn as Mode of Presentation_
+- a thought (G.) is _what is true or false_
+	- Examples
+		- $a^2 + b^2 = c^2$
+		- Venus follows an elliptic orbit around the sun
+		- Circe has drugged Odysseus' men
+	- not a picture, not a sentence, that thing that is true or false
+		- Thought and truth cannot be better defined.
+	- _unchangeable_, not psychological but "metaphysical"
+		- very close to _modern Platonism_
+			- thoughts are metaphysical and hyperuranical entities
+				- real, with determinate truth values and consequences relations, timeless and without location.
+		- everything that is content dependent must be encoded in the thought so that the thought iscontext-indipendent.
+		- (this can, for instance, not happen with the representation of yourself, see [[The Frequency of Telling Stories]])
+	- Leibniz: _Eadum sunt, quae sibi mutuo substitui posunt, salva veritate._
+		- Quotations:
+			- _direct_: expressions refer to themselves
+			- _indirect_: expressions refer to their ordinary sense
+				- the _Sinn_ is the _Bedeutung_ of that sentence in indirect use.
 #### 17.09, III. Worlds
 - _Quine_: $\square \varphi \equiv$ "$\varphi$" is analythic
+- Extremes:
+	- _Leibniz_: all worlds certainly exist
+	- _Quine_: nihilist, there are none.
 - _Lewis_: Modal Realism
 	- "_things could have been different_" $\Rightarrow$ "there are _ways things could have been_"
 	- _Stalnaker_: modal realism is just "_some ordinary beliefs by another name_"
-	- It is a natural belief and there is no problem with it.
 	- Actuality is Indexical: our world is one among others.
-	- _Stalnaker_: 
-		1. Possible worlds exist
-		2. they are of the same sort of the actual world
-		3. actuality is an indexical notion
-		4. possible worlds are irreducible 
-			- but can be given a naturalistic explanation
-	- In some sense $b \rightsquigarrow \bigwedge \{P : P(b)\}$ 
-		- cannot be "$=$"
-	- _Solopsism_: deny most things, _presentist_ the future and past, _actualist_ is inclusive
+		1. Not a particular property of our world.
+		2. We just believe to more things just like the actual world, nothing more.
+		3. Only a systematic thinking about the possibilities we already know.
+	- _Stalnaker_: possible worlds are "_some ordinary beliefs by another name_".
+	- _Lewis on Ordinary Beliefs_:
+		1. Belief in possible worlds is a natural belief
+		2. There is no sensible alternative to this belief
+		3. There is nothing wrong with the belief
+	- _Stalnaker_ answers Lewis as:
+		1. Possible worlds exist.
+		2. They are of the same sort of the actual world.
+			- Against:  $b \rightsquigarrow \bigwedge \{P : P(b)\}(b)$ is ok, not $b = \bigwedge \{P : P(b)\}$
+				- the way the world is, is not the same thing as the world that is that way.
+		3. Actuality is an indexical.
+			- Against: but real
+				- _The objective, absolute point of view is the view from within the actual world, and it is part of the concept of actuality that this should be so._
+				- _Solopsism_: deny most things, _presentist_ the future and past, _actualist_ is inclusive
+		4. Possible worlds are irreducible.
+- Instrumentalist: "_Possible worlds are convenient fictions which help to make a workable and perspicuous theory_"
+- **Frames**: as done in [[Introduction to Modal Logic (Lecture)]] &
+	- From: [[Modal Logic (Lecture)]]
+		- $\square \varphi \to \varphi$ corr. to refl.
+		- $\varphi \to \square \lozenge \varphi$ corr. to sym.
+		- $\square \varphi \to \square \square \varphi$ corr. to trans.
+		- $\square \varphi \to \lozenge \varphi$ corr. to seriality
+		- $\lozenge \varphi \to \square \lozenge \varphi$ corr. to euclideaness ($\forall_{u, v, w \in M}u R v \land u R w \to w R v)$
+	- in S5: $\Diamond \square \phi \Leftrightarrow \square \phi \Leftrightarrow \square \square \phi$ and $\Diamond \Diamond \phi \Leftrightarrow \Diamond \phi \Leftrightarrow \square \Diamond \phi$, R is refl., trans., eucl.
 #### 20.09, IV. A. Prior
-Brief and not too exciting lecutre
 - He gave foundations of temporal logic as a modal logic
 - Prior: _Wheresoever then is whatsoever is, it is only as present_ (mentioning S. Augustine)
+- Some Rules
+	1. $S \Leftrightarrow S$ present
+	2. $S$ future $\Leftrightarrow (S$ present$)$ future
+	3. $S$ future $\Leftrightarrow (S$ future$)$ present
+- Tenses as Temporal Operators:
+	- $F$ ex. in fut., $G$ alw. in the fut.
+	- $P$ ex. in past, $H$ alw. in the past.
+- Temporal Logic (as in [[Modal Logic (Lecture)#9. Temporal Logic]])
+	- $\models G \phi \leftrightarrow \lnot F \lnot \phi$ and $\models H \phi \leftrightarrow \lnot P \lnot \phi$ (Dualities)
+	- $\models (p \to GPp)$, in the fut., pres. is past, $\models (p \to HFp)$, pres. is fut. of past. (Interaction Principles)
+	- Limits: irrefl. and univ. cannot be characterised. That is though intuitive.
+		- Time is possibly circular, and this is not here. Can we exclude parallel times?
 #### 24.09, V. Kripke & Modal Predicate Logic
 - Lecture based on _Naming and Necessity_, seen mostly in [[The Frequency of Telling Stories]].
 - _a priori_ $\not \Leftrightarrow$ _necessary_

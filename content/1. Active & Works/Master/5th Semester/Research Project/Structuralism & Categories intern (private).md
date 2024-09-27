@@ -1,6 +1,11 @@
 ---
 draft: true
 ---
+### Interesting Tracks
+- Sittoni 25.09, 21:00 whatsapp chat, 
+
+## Rumenta
+
 - Max: a little
 - Josje: interested
 - ask Sittoni
@@ -9,6 +14,8 @@ draft: true
 To do after upload:
 1. spamma ad amici
 2. mail a prof (magari dopo averci parlato post lezione)
+
+### Questions
 ##### First Organisation Steps towards Realisation
 1. Ask Dr. Sebastian de Haro Ollé and Prof. Benno van den Berg for approval
 	1. Is it doable with satisfactory depth and completeness in 6 weeks? (I am counting Christmas vacation, in which I will begin reading the literature and determine potential research tracks for other students to collaborate)

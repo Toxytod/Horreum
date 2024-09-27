@@ -19,6 +19,19 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 		- $\equiv$ often written as $\leftrightsquigarrow$
 		- $\mathcal{M}, x \equiv \mathcal{M}', x' \Rightarrow \mathcal{M}, x \underline{\leftrightarrow}\mathcal{M}', x'$ often written as $x \equiv x' \Rightarrow x \underline{\leftrightarrow} x'$.
 	- \[for $k \in ON$ the maximal complexity of a formula in $\mathcal{L}^k_{ML}$, a $k$-inductively defined modal logic, then $\forall_{x \in M}\forall_{x' \in M'} \mathcal{M}, x \equiv \mathcal{M}', x' \Rightarrow \mathcal{M}, x \underline{\leftrightarrow}^k \mathcal{M}', x'$ for $\underline{\leftrightarrow}^k$ the $k$-bisimulation, as defined in: [Overleaf: IML, 1](https://www.overleaf.com/read/qdtknhmjymqt#0a2005)\]
+#### From the Book
+- $\tau = (O, \rho)$ is a _modal similarity type_ for $O \not = \emptyset$, $\rho: O \to \mathbb{N}$, 1.11
+	- elements of $O$ are _modal operators_
+		- use $\triangle_0, \triangle_1, ...$ to denote its elements.
+			- for $i \in \mathbb{N}$, $\triangledown_i(\varphi_1, ..., \varphi_n) := \lnot \triangle_i (\lnot \varphi_1, ..., \lnot \varphi_n)$ 
+	- $\rho$ assigns to each operator $\triangle$ a finite arity.
+- $ML(\tau, \Phi)$ is a _modal language_ for $\tau = (O, \rho)$ and a set of prop.lett $\Phi$, 1.12
+	- $Form(\tau, \Phi)$ is given by $\langle p | \bot | \lnot \varphi | \varphi_1 \land \varphi_2 | \triangle (\varphi_1, ..., \varphi_{\rho(\triangle)}) \rangle$ 
+- $\tau$-type at $w$ is $\{\varphi : \mathcal{M}, w \models\varphi\}$, 2.1
+	- two $\tau$-types at $w$ and $w'$, for $w \in M, w' \in M'$, s.t. $\mathcal{M}, \mathcal{M}'$ have same mod.sim.type $\tau$, write $w \leftrightsquigarrow w'$ if $\tau$-type.$w$ is $\tau$-type.$w'$.
+	- $\mathcal{M} \leftrightsquigarrow \mathcal{M}'$ iff $\bigcap_{w \in M} \{\varphi : \mathcal{M}, w \models\varphi\} = \bigcap_{w' \in M'} \{\varphi : \mathcal{M}', w' \models\varphi\}$
+	- $\mathcal{M} \bigsqcup \mathcal{N}$ preserves all information.
+- for $\tau$ mod.sim.type, $\mathcal{M}_i$ $\tau$-models, then $\forall_{\varphi \in \mathcal{L}_{\tau-ML}}\forall_{i \in I} \forall_{w \in M_i} \mathcal{M}_i, w \models \varphi \Leftrightarrow \bigcup_{i \in I}\mathcal{M}_i, w \models \varphi$, 2.3
 #### 17.09, Filtrations
 - A (generated) submodel $\mathcal{M}'$ of $\mathcal{M}$ is a model s.t.
 	1. $W' \subseteq W$ 

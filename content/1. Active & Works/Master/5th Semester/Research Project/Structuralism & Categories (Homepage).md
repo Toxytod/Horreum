@@ -1,5 +1,5 @@
 ---
-date: 2024-09-13
+date: 2024-09-26
 title: Structuralism & Categories
 ---
 I propose the following as a research project I want to pursue in the thin, though currently wider than ever, intersection between Philosophy of Science and Category Theory. I will propose this research project for the [[5th Semester#1st Year, 3rd Period]] of my [[M.Sc. Logic (UvA)]] to both Dr. Enrico Cinti (researcher in Philosophy of Science) and Prof. Benno van den Berg (lecturer of [[Category Theory (Lecture)]]), presenting it as a joint project. The reader, whoever they may be, shall always feel encouraged to leave [[Comments]]. In particular, there are dedicated pages:
