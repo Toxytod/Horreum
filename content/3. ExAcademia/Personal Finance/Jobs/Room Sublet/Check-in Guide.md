@@ -15,6 +15,7 @@ Here's a [video](https://drive.google.com/drive/folders/1-7f7a5VgVAEEpvizZq2wrDy
 - You'll see rooms labelled F1 - F6. You’ll need your Digital Key again to pass through the red door. If you’ve arranged check-in with me in advance and completed payment, I might leave the door unlocked. Otherwise, use the key on your phone. If you encounter any issues, follow the app’s instructions and contact me.
 - Inside the apartment, head to the **very last door** marked F6.
 
+Once you are close to the building, you can use the Wifi: `Ziggo_itdesk`, Password: `dekey2017`.
 #### House Rules
 To ensure a pleasant stay and avoid deductions from your deposit, please follow these rules:
 
