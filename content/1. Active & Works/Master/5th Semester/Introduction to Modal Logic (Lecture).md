@@ -2,24 +2,23 @@
 draft: 
 date: 2024-09-30
 ---
-I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester]] at the [[University of Amsterdam]] for my [[M.Sc. Logic (UvA)]]. I covered most of the material already in [[Modal Logic (Lecture)]]. I paired for exercises with Josje van der Laan.
+I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester]] at the [[University of Amsterdam]] for my [[M.Sc. Logic (UvA)]]. I covered most of the material already in [[Modal Logic (Lecture)]]. I paired for exercises with Josje van der Laan. The notes are from the book: _Modal Logic_ by P. Blackburn, M. de Rijke, Y. Venema, (2010), Cambridge University Press.
 #### Assignments
 1. [Overleaf: IML, 1](https://www.overleaf.com/read/qdtknhmjymqt#0a2005)
 2. [Overleaf: IML, 2](https://www.overleaf.com/read/cpcbpxgshgwx#9933a8)
 3. [Overleaf: IML, 3](https://www.overleaf.com/read/fhfgdcfdxfks#e50bb8)
 4. [Overleaf: IML, 4](https://www.overleaf.com/read/nqzhrtkqwbjy#cd734e)
 5. [Overleaf: IML, 5](https://www.overleaf.com/read/bnbpqggkwwdm#e2f4f5)
-
 ## Lecture Notes
 - Bisimilarity & Invariance Lemma, as in: [[Modal Logic (Lecture)#3. Expressive Power and Invariance]].
-	- converse of invariance lemma holds with $n$-bisimilarity for $n \in \mathbb{N}$.
+	- converse of invariance lemma holds with $n$-bisimilarity for $n \in \mathbb{N}$. (see 2.24)
 	- $\mathcal{M} = (M, R, V)$ is _image finite_ if $\forall_{x \in M} |R[x]| < \aleph_0$
 		- $R[x] := \{y \in M : x R y\}$
 	- for $\mathcal{M}$, $\mathcal{M}'$ image finite, $\forall_{x \in M}\forall_{x' \in M'} \mathcal{M}, x \equiv \mathcal{M}', x' \Rightarrow \mathcal{M}, x \underline{\leftrightarrow}\mathcal{M}', x'$ (Hennessy - Milner)
 		- $\equiv$ often written as $\leftrightsquigarrow$
 		- $\mathcal{M}, x \equiv \mathcal{M}', x' \Rightarrow \mathcal{M}, x \underline{\leftrightarrow}\mathcal{M}', x'$ often written as $x \equiv x' \Rightarrow x \underline{\leftrightarrow} x'$.
 	- \[for $k \in ON$ the maximal complexity of a formula in $\mathcal{L}^k_{ML}$, a $k$-inductively defined modal logic, then $\forall_{x \in M}\forall_{x' \in M'} \mathcal{M}, x \equiv \mathcal{M}', x' \Rightarrow \mathcal{M}, x \underline{\leftrightarrow}^k \mathcal{M}', x'$ for $\underline{\leftrightarrow}^k$ the $k$-bisimulation, as defined in: [Overleaf: IML, 1](https://www.overleaf.com/read/qdtknhmjymqt#0a2005)\]
-#### From the Book
+#### Types (from the Book)
 - $\tau = (O, \rho)$ is a _modal similarity type_ for $O \not = \emptyset$, $\rho: O \to \mathbb{N}$, 1.11
 	- elements of $O$ are _modal operators_
 		- use $\triangle_0, \triangle_1, ...$ to denote its elements.
@@ -37,28 +36,60 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 	1. $W' \subseteq W$ 
 	2. $R' = R \cap (W' \times W')$
 	3. $V'(p) = V(p) \cap W'$ 
-	(4.) $(w \in W' \land wRv) \to v \in W'$ 
+	(4.) $\forall_{w \in M'} wRv \to v \in W'$ 
 	- $\mathcal{M'}$ is gen.sub, of $\mathcal{M}$, $x \in W'$, then $\mathcal{M}, x \underline{\leftrightarrow} \mathcal{M}', x$
-	- for $\mathcal{M}$, $\mathcal{M}'$ models, $f: W \to W'$ is a bounded morphism if:
-		1. $\forall_{p \in Prop}\mathcal{M}, x \models p \Leftrightarrow \mathcal{M'}, f(x) \models p$
-		2. $x R y \Rightarrow f(x) R' f(y)$
-		3. $f(x) R' x' \Rightarrow \exists_{y \in W} x R y \land f(y) = x$
-	- for $\mathcal{M}, \mathcal{M}'$ models, $f: W \to W'$ a bound.morph., then $\mathcal{M}, x \underline{\leftrightarrow} \mathcal{M}', f(x)$
+- $\mathcal{M}$ is rooted if exists $w \in M$, a root, that generates the whole model, 2.5
+- **Morphisms**
+	- **Homo-** for $\mathcal{M}, \mathcal{M}'$ $\tau$-models, $f: \mathcal{M} \to \mathcal{M}'$ hom., if: , 2.7
+		1. $\forall_{p \in \text{Prop}} \forall_{w \in W} w \in V(p) \to f(w) \in V'(p)$ 
+		2. $$\forall_{n \in \mathbb{N}_0} \forall_{\triangle \in \tau} \rho(\triangle = n \to \forall_{W \subseteq M} |W| = n +1 \to W = (w_0, ..., w_n) \in R_\triangle \to (f(w_0), ..., f(w_n)) \in R_\triangle'$$
+		- Modal formulas are not invariant under homomorphism, structure of the domain (_source_) is reflected in the image (_target_), not the riverse.
+		- $\forall_{w \in M}\forall_{w' \in M'}\exists_{f: \mathcal{M} \to \mathcal{M}'} f(w) = w' \Rightarrow (\forall_{\varphi \in \mathcal{L}_{ML}} \mathcal{M}, w \models \varphi \Leftrightarrow \mathcal{M}', w' \models \varphi)$, 2.9
+		- $\mathcal{M} \cong \mathcal{M}' \Rightarrow \mathcal{M} \leftrightsquigarrow \mathcal{M}'$, 2.9
+	- **Bounded**: if
+		1. $\forall_{w \in M} \forall_{p \in \text{Prop}} \mathcal{M}, w \models p \Leftrightarrow \mathcal{M}', f(w) \models p$ 
+		2. $f$ is homom. to $R$
+		3. $\forall_{w \in M} \forall_{v' \in M'} f(w) R v' \to \exists_{v \in M} wRv \land f(v) = v'$
+		- let $f: \mathcal{M} \to \mathcal{M}'$ bound.morph., then $\forall_{\varphi \in \mathcal{L}_{ML}} \forall_{w \in M} \mathcal{M}, w \models \varphi \Leftrightarrow \mathcal{M}', f(w) \models \varphi$ 
+		- for $\mathcal{M}, \mathcal{M}'$ models, $f: W \to W'$ a bound.morph., then $\mathcal{M}, x \underline{\leftrightarrow} \mathcal{M}', f(x)$
 	- for $\{\mathcal{M}_i\}_{i \in I}$ for $\mathcal{M}_i$ model, the disj.union is a model $\mathcal{M}$ s.t.
 		1. $W := \bigsqcup_{i \in I} W_i$, $R = \bigcup_{i \in I} R_i$, $V(p) = \bigcup_{i \in I} V_i(p)$ 
 - [[Modal Logic (Lecture)#5. Finite Model Property]]:
-	- let $\Sigma$ be a fin.set, cl.under subformulae
-	- $W/\Sigma = \{[x]: x \in W\}$
-		- $[x] =\{y \in W : x \leftrightsquigarrow y\}$
-			- $x \leftrightsquigarrow y := \forall_{\varphi\in \Sigma}(\mathcal{M}, x \models \varphi \Leftrightarrow \mathcal{M}, y \models \varphi$
-	- $g: W / \Sigma \to \mathcal{P}(\Sigma)$, $[x] \mapsto \{\varphi \in \Sigma : \mathcal{M},x \models \varphi\}$
-	- the filtration model $\mathcal{M}^f$
-		1. $W^f = W_\Sigma$
-		2. $V^f(p) = \{[x]: \mathcal{M}, x \models p\}$
-		3. $xRy \Rightarrow [x] R^f [y]$ 
-		4. $[x]R^f[y] \Rightarrow \forall_{\lozenge \varphi \in \Sigma}(\mathcal{M}, y \models \varphi \Rightarrow \mathcal{M}, x \models \lozenge \varphi)$
-	- $\forall_{\varphi \in Sigma} \forall_{x \in W} \mathcal{M}, x \models \varphi \Leftrightarrow \mathcal{M}^f, [x] \models \varphi$
-#### 24.09, IV.
+	- _Modal Depth_:\is $deg$ defined as follows:
+		1. (i) $deg(p) = 0$, (ii) $deg(\bot) = 0$, (iii) $deg(\lnot \phi) = deg(\phi)$, (iv) $deg(\phi \land \psi) = \max\{deg(\phi), deg(\psi)\}$ 
+		2. (v) $deg(\triangle (\phi_1, ..., \phi_n)) = 1 + max\{deg(\phi_1), ..., deg(\phi)_n\}$ 
+	- $w \underline{\leftrightarrow}_n w'$ i.e. bisimulate up to depth $n$.
+		- if, for $\text{Prop} \subsetneq \mathcal{L}_{ML}$, $|\text{Prop}| < \aleph_0$, then $(\forall_{n \in \mathbb{N}} \mathcal{M}, w \underline{\leftrightarrow}_n \mathcal{M}', w') \Leftrightarrow (\forall_{\varphi \in \mathcal{L}_{ML}} \mathcal{M}, w \models \varphi \Leftrightarrow \mathcal{M}', w' \models \varphi)$, 2.30-1
+	- for $\mathcal{M}$ rooted model in $w$, define:, 2.32
+		1. $\forall_{w' \in M}ht(w') = 0 \to w' = w$
+		2. $\forall{w' \in M} ht(w') = n + 1 \to \exists_{w'' \in M}ht(w'') = n \land w'' R w'$ 
+		- $ht(\mathcal{M}) = \max\{ht(w') : w' \in M\}$ 
+		- $\mathcal{M}|_k = (M|_k, R|_k, V|_k)$
+			1. $M|_k = \{w' \in M : ht(w') \le k\}$, $R|_k = R|_{M|_k}$ and $V|_k = V|_{M|_k}$.
+	- if $\tau$ has only diamonds, $\phi$ is sat. iff sat. on a finite mode, 2.34
+	- **Filtrations** from 2.25
+		- for $\Sigma \subseteq \mathcal{L}_{ML}$ cl.under subformulae, 2.36
+		- $W_\Sigma := \{[x]: x \in W\}$
+			- $[x]_{(\Sigma)} := \{y \in W : x \leftrightsquigarrow_\Sigma y\}$
+				- $x \leftrightsquigarrow_\Sigma y := \forall_{\varphi\in \Sigma}(\mathcal{M}, x \models \varphi \Leftrightarrow \mathcal{M}, y \models \varphi)$
+		- the filtration model $\mathcal{M}^f$, 2.36
+			1. $W^f = W_\Sigma$
+			2. $\forall_{x, y \in M} xRy \Rightarrow [x] R^f [y]$ 
+			3. $\forall_{x, y \in M} ([x]R^f[y] \Rightarrow \forall_{\lozenge \varphi \in \Sigma}(\mathcal{M}, y \models \varphi \Rightarrow \mathcal{M}, x \models \lozenge \varphi))$
+			4. $V^f(p) = \{[x]: \mathcal{M}, x \models p\}$
+		- $\forall_{\Sigma \subseteq \mathcal{L}_{ML}} |\Sigma| < \aleph_0 \to\forall_{\varphi \in \Sigma}  \forall_{x \in W} \mathcal{M}, x \models \varphi \Leftrightarrow \mathcal{M}^f, [x] \models \varphi$, 2.39
+			- $\forall_{\Sigma \subseteq \mathcal{L}_{ML}} |\Sigma| < \aleph_0 \to |M^f| \le 2^{|\Sigma|}$, 2.38
+			- every formula that is satisfiable, is satisfiable in a finite model, 2.41
+				- for $\Sigma_\phi$ the subformula-closure of $\{\phi\}$.
+		- One can always define filtration through:, 2.39
+			1. $[w] R^s [v] \Leftrightarrow \exists_{w' \in [w]} \exists_{v' \in [v]} w' R v'$ (smallest)
+			2. $[w] R^l [v] \Leftrightarrow (\forall_{\Diamond \phi \in \Sigma} \mathcal{M},v \models \phi \Rightarrow \mathcal{M},w \models \Diamond \phi)$ (largest)
+			- $R^s \subseteq R^f \subseteq R^l$ 
+			- $[w] R^t [v] \Leftrightarrow \forall_{\Diamond \phi \in \Sigma}(( \mathcal{M}, v \models \phi \land \Diamond \phi) \to \mathcal{M}, w \models \Diamond \phi)$ 
+				- $R$ trans. $\Rightarrow R^t$ trans.
+				- for $R$ trans., define $C \subseteq M$, $(C, R|_C, V|_C)$ (cluster), 2.43
+					- a cluser is _simple_, if $C = \{c\}$ s.t. $cRc$ and _proper_ if $|C| \ge 2$.
+#### 24.09, IV. Trees
 - a tree $(T,S)$ is a frame s.t. 
 	1. $T$ is _rooted_ (i.e. $\forall_{t \in T}\exists!_{r \in T} rS^*t$)
 		1. for $S^*$ the refl.trans.cl. of $S$
@@ -67,3 +98,4 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 		1. for $S^+$ the trans.cl. of $S$
 - for $\mathcal{M} = (W, R, V)$, ex. $\mathcal{T} = (T, S, V)$ s.t. $f: T \to V$ surj. bounded morphism.
 - a path in $\mathcal{M}$ is a seq. $(r, u_1, ..., u_n)$ s.t. $u_i R u_{i + 1}$ 
+#### Standard Translation

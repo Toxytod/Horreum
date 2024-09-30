@@ -79,3 +79,16 @@ I use [https://q.uiver.app](https://q.uiver.app/) to draw the diagrams.
 		1. for $\forall_{C, C' \in \mathcal{C}_0} \exists_{\alpha \in Hom_\mathcal{C}(C, C')} Diag.Comm.$, (Naturality Condition)
 			1. $Diag$: $F(C) \to^{F(\alpha)}FC' \to^{\sigma_{C'}} G(C')$ and $F(C) \to^{\sigma_C} G(C) \to^{G(\alpha)} G(C')$ 
 	- if $\sigma: F \Rightarrow G$ in $[\mathcal{C}, \mathcal{D}]$ is iso. iff $\forall_{C \in \mathcal{C}_0} iso.(\sigma_C)$ 
+#### Equivalence of Categories
+- $\mathcal{C} \simeq \mathcal{D}$ if there are functors $F: \mathcal{C} \to \mathcal{D}$, $G: \mathcal{C} \to \mathcal{D}$ s.t.
+	1. $G \circ F \cong 1_\mathcal{C}$
+	2. $F \circ G \cong 1_\mathcal{D}$ 
+	- called _equivalence_ and $G$ is the _pseudo-inverse_
+	- also $\cong$ is isomorphism of categories
+		- $\mathcal{C} \cong \mathcal{D}$ iff ex. $F' : \mathcal{C} \to \mathcal{D}$, $G' : \mathcal{D} \to \mathcal{C}$ s.t. (i) $G \circ F = 1$, (ii) $F \circ G = 1$
+- Equivalence _preserves_ and _reflects_ terminal objects (and most other properties)
+- $F: \mathcal{C} \to \mathcal{D}$ is an equivalence if:
+	1. $F$ is essentially surjective
+		- that is: $\forall_{D \in \mathcal{D}_0} \exists_{C \in \mathcal{C}_0} FC \cong D$
+	2. $F$ is fully faithful
+		- $F$ is full and faith

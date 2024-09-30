@@ -144,10 +144,25 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 					- {Q: should we develop a meta-language or just use the one true in @?}
 				- Q: Sinn and Bedeutung of rigid names?
 					- A: Bedeutung makes no sense, different domains, Sinn is not the proper way to think about it, (against Lewis) possible worlds are not already there, they are stipulated after we use names rigidly, that is what refers necessarily to objects in other worlds.
-- Predicate Modal Logic, $\mathcal{L}_{PML}$ 
-	- $D$ is a domain function, s.t. for each world $w$, $D_w$ is a domain.
-	- $I$ interpretations are _rigid_
-	- Valuations are _partial_, i.e. $\mathcal{M}, w, V \models \varphi$ or $\mathcal{M}, w, V \models \lnot \varphi$ or neither
-		- {Q: $\not \models$ or $\models \lnot \varphi$?}
-			- A: the revers models is the semantic of "$\lnot \varphi$"
+- **Predicate Modal Logic**\[I use here $\Vdash$ for `\backmodels` or `sledom` which are not in Markdown.\]
+	- $D: W \to  \{D_{w_0}, D_{w_1}, ...\}, w \mapsto D_w$, $D_w$ is the _domain of individuals_ (Domain Function)
+		- hence _existence is contigent_
+	- $I$ interpretations are _rigid_, same in every world.
+	- Valuations are _partial_, i.e. $\mathcal{M}, w, V \models \varphi$ or $\mathcal{M}, w, V \Vdash \varphi$ or neither
+		- ==\[Isnt't this always the case?\]==
 	- We use Weak Kleene Truth tables
+		- if there is an undefined, then undefined.
+	- **Semantics**
+		- $\mathcal{M}, w \models R(t_1, ..., t_n)$ iff $[t_1]_{M, g} \in D_w$ and $\langle [t_1]_{M, g}, ..., [t_n]_{M, g} \rangle \in I_w(R)$
+		- "same as above" $\Vdash$ "same as above" $\not \in$ "same as above"
+		- $\mathcal{M}, w \models t_i = t_j$ iff $[t_i]_{M, g} \in D_w$ and $[t_i]_{M, g} = [t_j]_{M, g}$, similarly for $\not =$
+		- $\mathcal{M}, w \models (\phi \land \psi)$ - classical and defined \[only?\]
+		- $\mathcal{M},w \models \forall_x \phi$ iff $\forall_{d \in D_w} \mathcal{M}, w, V[x/ d] \models \phi$ 
+		- "same" $\Vdash$ "same" $\Vdash \phi$, and for $\exists$ 
+		- $\square$ as usual.
+	- **Tautologies & False Tautologies**
+		- Hard Modality:
+			- $\models \square (a = a)$
+			- $\models \square (Fa \to Fa)$ 
+	- **String & Tolerant Modality**
+		- $\Gamma \models_s \psi$ iff in all models $\forall_{\gamma \in \Gamma} (\mathcal{M}, w \models \gamma )\Rightarrow \mathcal{M}, w \models \phi$ 
