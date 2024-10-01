@@ -149,7 +149,7 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 		- hence _existence is contigent_
 	- $I$ interpretations are _rigid_, same in every world.
 	- Valuations are _partial_, i.e. $\mathcal{M}, w, V \models \varphi$ or $\mathcal{M}, w, V \Vdash \varphi$ or neither
-		- ==\[Isnt't this always the case?\]==
+		- see [[Meaning, Reference and Modality (Lecture)#Alternative Semantics to Modal Predicate Logic]]
 	- We use Weak Kleene Truth tables
 		- if there is an undefined, then undefined.
 	- **Semantics**
@@ -166,3 +166,25 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 			- $\models \square (Fa \to Fa)$ 
 	- **String & Tolerant Modality**
 		- $\Gamma \models_s \psi$ iff in all models $\forall_{\gamma \in \Gamma} (\mathcal{M}, w \models \gamma )\Rightarrow \mathcal{M}, w \models \phi$ 
+#### 01.10, VI. Real, Possible and Impossible Objects
+...
+
+## Questions
+### Alternative Semantics to Modal Predicate Logic
+We have defined in [[Meaning, Reference and Modality (Lecture)#24.09, V. Kripke & Modal Predicate Logic]] the semantic that answers to the very natural question of how one can introduce first order logic in modal logic. Here I present a semantic that I claim to be equivalent to the presented one but that is simpler in two ways: (i) does not require the introduction of three valued Weak Kleene Logic and (ii) does not require the introduction of the reversed semantic consequence symbol (which I write here as $\Vdash$ due to its absence in Markdown vocabulary).
+
+My aim is to define the semantics of "$\mathcal{M}, w \models \varphi$" for $\varphi \in \mathcal{L}_{FOL}$ while keeping the general principles and intentions presented in the lecture.
+
+To see the intuition, recall that for theories, instead of models, we already have an integrated way of having three truth values: that is (i) $T \models \varphi$, or (ii) $T \models \lnot \varphi$ or (iii) $T \not \models \varphi$ and $T \not \models \lnot \varphi$. This though cannot be directly applied to pointed modal models. That is, since models are complete and therefore the case (iii) cannot take place.^[1] 
+
+Consider this slight edit (that is sometimes already implicitly used in mathematical praxis) where for a sequence of symbols that are not in the language, call it $\delta$, we have $T \not \models \delta$.
+
+Now, for each world construct a first order logic whose terms are variables and the associated domain $D_w$ (the same defined in class), call such a language $\mathcal{L}^w$. Every time we write $\mathcal{M}, w \models_w \varphi$ we mean $\models_w$ to be a consequence relation^[2] of the language $\mathcal{L}^w$.
+
+To see that Week Kleene Logic is applied, is fairly easy: for $\delta \notin \mathcal{L}^w$ and $\varphi \in \mathcal{L}^w$, we derive $\delta \circ \varphi \notin \mathcal{L}^w$ for any connective $\circ$, similarly for negation. For instance, $\mathcal{M}, w \not \models \varphi \land \delta$. Examples of such $\delta$ would be those formula that would be well formed but contain names of objects that are not in the domain of the world. In general we can state $\forall_{d \in \bigcup_{w \in W} D_w}(d \not \in D_w \land d \in \delta )\to \mathcal{M}, w \not \models \delta$.^[3]
+
+Also note that, for $a \not \in \bigcap_{w \in W}D_w$, I have $\not \models (a = a)$ since for $a \not \in D_w$, then $\mathcal{M}, w \not \models a = a$. Though I always have $\models \forall_{x} x = x$ and hence also $\models \square \forall_{x = x}$ since $D_w \not = \emptyset$.
+
+[1]: this point already may not be 100% coherent with the way Kripke sees possible worlds, but that is another matter
+[2]: it may now be better to consider the syntactic relation rather than the semantic one, since it is essentially language-dependent and generally would _feel more appropriate_.
+[3]: here I write $d \in \delta$ because I consider $\delta$ to be an ordered set of symbols, hence I mean $d$ to be a symbol within the sentence $\delta$.
