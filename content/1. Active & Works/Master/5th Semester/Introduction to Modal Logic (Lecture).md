@@ -51,8 +51,8 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 		2. $f$ is homom. to $R$
 		3. $\forall_{w \in M} \forall_{v' \in M'} f(w) R v' \to \exists_{v \in M} wRv \land f(v) = v'$
 		- let $f: \mathcal{M} \to \mathcal{M}'$ bound.morph., then $\forall_{\varphi \in \mathcal{L}_{ML}} \forall_{w \in M} \mathcal{M}, w \models \varphi \Leftrightarrow \mathcal{M}', f(w) \models \varphi$ 
-		- for $\mathcal{M}, \mathcal{M}'$ models, $f: W \to W'$ a bound.morph., then $\mathcal{M}, x \underline{\leftrightarrow} \mathcal{M}', f(x)$
-	- for $\{\mathcal{M}_i\}_{i \in I}$ for $\mathcal{M}_i$ model, the disj.union is a model $\mathcal{M}$ s.t.
+			- for $\mathcal{M}, \mathcal{M}'$ models, $f: W \to W'$ a bound.morph., then $\mathcal{M}, x \underline{\leftrightarrow} \mathcal{M}', f(x)$
+	- for $\{\mathcal{M}_i\}_{i \in I}$ for $\mathcal{M}_i$ model, the disj.union ([[On Disjoint Union]]) is a model $\mathcal{M}$ s.t.
 		1. $W := \bigsqcup_{i \in I} W_i$, $R = \bigcup_{i \in I} R_i$, $V(p) = \bigcup_{i \in I} V_i(p)$ 
 - [[Modal Logic (Lecture)#5. Finite Model Property]]:
 	- _Modal Depth_:\is $deg$ defined as follows:
@@ -99,3 +99,18 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 - for $\mathcal{M} = (W, R, V)$, ex. $\mathcal{T} = (T, S, V)$ s.t. $f: T \to V$ surj. bounded morphism.
 - a path in $\mathcal{M}$ is a seq. $(r, u_1, ..., u_n)$ s.t. $u_i R u_{i + 1}$ 
 #### Standard Translation
+#### 01.10, V. Frame Definability
+- a class of frames $C$ is definable if there is a modal formula $\varphi$ s.t. $\mathcal{F} \models \varphi \Leftrightarrow \mathcal{F} \in \mathcal{C}$.
+- recall bounded functions from [[Introduction to Modal Logic (Lecture)#17.09, Filtrations]].
+	- for $f$ bounded morphism, s.t. $dom(f) = F$, $f(F)= G$, then $\forall_{\varphi \in\mathcal{L}_{ML}} \mathcal{F} \models \varphi \Rightarrow \mathcal{G} \models \varphi$.
+		- "modally definable classes are closed under bounded morphisms."
+- recall disjoint union from [[Introduction to Modal Logic (Lecture)#17.09, Filtrations]]. We define it now for frames.
+	- for $C$ a definable class of frames: $\forall_{\mathcal{F}, \mathcal{G} \in C} \mathcal{F} \bigsqcup \mathcal{G} \in C$ 
+- for $C$ FO.def.class of frames, then $C$ is mod.def. iff. $C$ is cl. under bounded morphic images, hgenerated subframes, disjoint unions and _reflects untrafitler extensions_ (Goldlatt - Thomson Theorem)
+	- see [[Model Theory (Lecture)]] for ultrafilters, but also [[First Bachelor Thesis Concept]].
+- Löb formula: $\square ( \square p \to p) \to \square p$ 
+	- for $p = \bot$, $\square ( \square \bot \to \bot) \to \bot \Leftrightarrow \square \lnot \square \bot \to \square \bot$, if you prove smth _consistent_, it is _false_ (Gödel)
+- **Gödel Logic** (GL)
+	- $\mathcal{F}$ is conversely well-founded if there is no ascending infinite chain
+		- (it is not FO-def.)
+	- $\mathcal{F}$ not trans., $\mathcal{F}$ not conv.well.foud. then $\mathcal{F} \not \models \square ( \square p \to p) \to \square p$.
