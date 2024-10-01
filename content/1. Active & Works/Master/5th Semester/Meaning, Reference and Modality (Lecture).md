@@ -190,6 +190,6 @@ Also note that, for $a \not \in \bigcap_{w \in W}D_w$, I have $\not \models (a =
 2. Do you agree on the better simplicity in defining the semantics in this way?
 3. Do you see any philosophical / foundational concern that one should take care of and which may make this semantics differ to the one presented in class?
 
-[1]: this point already may not be 100% coherent with the way Kripke sees possible worlds, but that is another matter
-[2]: it may now be better to consider the syntactic relation rather than the semantic one, since it is essentially language-dependent and generally would _feel more appropriate_.
-[3]: here I write $d \in \delta$ because I consider $\delta$ to be an ordered set of symbols, hence I mean $d$ to be a symbol within the sentence $\delta$.
+[1]: this point already may not be 100% coherent with the way Kripke sees possible worlds, but that is another matter <br>
+[2]: it may now be better to consider the syntactic relation rather than the semantic one, since it is essentially language-dependent and generally would _feel more appropriate_.<br>
+[3]: here I write $d \in \delta$ because I consider $\delta$ to be an ordered set of symbols, hence I mean $d$ to be a symbol within the sentence $\delta$.<br>
