@@ -7,11 +7,28 @@ I tracked the effects of varying doses of a caffeine booster over several days, 
 
 For maximal dosage and other data I used [https://www.drugscience.org.uk/caffeine](https://www.drugscience.org.uk/caffeine), measures (like not a sporadic use) will be taken to avoid dependency.
 
-Calendar Caffein:
-- 13.09, 14:00, 200mg in pill, laxative effect, awake and productive until 00:40
-- 14.09, 8:00, 200mg, in pill, not lax, productive
-- 15.09, 8:00, 200mg, in pill, not lax, productive
-- 16.09, 11:40, 200mg, in pill, not lax, productive
+### Caffeine Calendar
+**September**:
+- 13.09, 14:00, 200 mg in pill, laxative effect, awake and productive until 00:40
+- 14.09, 08:00, 200 mg in pill, no laxative effect, productive
+- 15.09, 08:00, 200 mg in pill, no laxative effect, productive
+- 16.09, 11:40, 200 mg in pill, no laxative effect, productive
+- 17.09, 200 mg in pill, no negative effects, moderate positive effect
+- 18.09, 200 mg in pill, no negative effects, moderate positive effect
+- 19.09, 200 mg in pill, no negative effects, moderate positive effect
+- 20.09, 200 mg in pill, no negative effects, moderate positive effect
+- 21.09, 200 mg in pill, no negative effects, moderate positive effect
+- 22.09, 200 mg in pill, no negative effects, moderate positive effect
+- 23.09, 200 mg in pill, no negative effects, moderate positive effect
+- 24.09, 200 mg in pill, no negative effects, moderate positive effect
+- 25.09, 200 mg in pill, no negative effects, moderate positive effect
+- 26.09, 200 mg in pill, no negative effects, moderate positive effect
+- 27.09, 200 mg in pill, no negative effects, moderate positive effect
+- 28.09, 200 mg in pill, no negative effects, moderate positive effect
+- 29.09, 0mg, felt slightly sleepy, also due to poor sleep
+- 30.09, 200 mg in pill, no negative effects, moderate positive effect
+**October**:
+- 01.10, 0mg, slightly sleepy compared to previous days, not different from before the first dose.
 
 The calendar will soon be a encoded in Python, here is how the class will look like:
 **Caffeine Intake**
