@@ -114,3 +114,5 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 	- $\mathcal{F}$ is conversely well-founded if there is no ascending infinite chain
 		- (it is not FO-def.)
 	- $\mathcal{F}$ not trans., $\mathcal{F}$ not conv.well.foud. then $\mathcal{F} \not \models \square ( \square p \to p) \to \square p$.
+	- $\mathcal{F} \models \varphi \Leftrightarrow \forall_{p} \forall_x ST_x (\varphi)$ ==?==
+	- 
