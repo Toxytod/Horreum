@@ -223,3 +223,12 @@ Also note that, for $a \not \in \bigcap_{w \in W}D_w$, I have $\not \models (a =
 [1]: this point already may not be 100% coherent with the way Kripke sees possible worlds, but that is another matter <br>
 [2]: it may now be better to consider the syntactic relation rather than the semantic one, since it is essentially language-dependent and generally would _feel more appropriate_.<br>
 [3]: here I write $d \in \delta$ because I consider $\delta$ to be an ordered set of symbols, hence I mean $d$ to be a symbol within the sentence $\delta$.<br>
+
+**Re:** by [Soeren Knudstorp]([https://knudstorp.github.io](https://knudstorp.github.io/)).
+
+If I’ve understood your suggestion correctly, your proposed semantics wouldn’t be equivalent. For instance, since you have only one constant for each element of a given domain, you wouldn’t be able to express statements like $h=p$ (‘Hesperus is Phosphorus’), but only express $v=v$ ('Venus is Venus’). 
+
+**My Reply**:
+I first try to make to make clear to myself how statements like $h = p$ are possible in the predicate modal logic seen in class, and then note that, to my understanding, there is no difference in forming such statements in "_mine_" or in the _given_ semantics. 
+
+To begin, in order to construct the statement ‘Hesperus is Phosphorus’ we wish to have variables $h, p$ that _denote_ the same object. Since we have taken names to refer rigidly, we have the general principle that each name, that is a constant $d \in \bigcup_{w \in W}D_w$, always refers to the _same object_ when interpreted in the different worlds. More precisely, that is for constants $h, p \in \bigcup_{w \in W} D_w$ we have that for every Kripke model $\mathcal{M}$,  $\forall_{w \in W} h, p \in D_w \to (\mathcal{M}, w \models h = p)$. Now, such a construction is similarly valid in the semantics I have given without any difference that I can see. 
