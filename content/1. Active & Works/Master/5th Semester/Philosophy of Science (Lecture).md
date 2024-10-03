@@ -7,7 +7,7 @@ I followed this course by, Dr. Sebastian de Haro Ollé during my [[5th Semester]
 - [Overleaf: PhiSci, 1](https://www.overleaf.com/read/jkpfpngvrkbp#7951b6), mark: 10
 - [Overleaf: PhiSci, 2](https://www.overleaf.com/read/kvkkpywcnkxm#849ccc)
 - [Overleaf: PhiSci, 3](https://www.overleaf.com/read/cccptfntkrgq#b92b5f)
-- [Overleaf: PhiSci Presentation](https://www.overleaf.com/read/fdmmwvxcndnt#a582c8)
+- [Overleaf: PhiSci Presentation](https://docs.google.com/presentation/d/1Ynx2fVQ3ATbwVlh8-S11BTx49aAr-4CDPOa8KK3BDNU/edit?usp=sharing)
 ## Lecture Notes
 Here I summarise the content of the lecture and state brief remarks on the papers read during the course.
 #### 02.09, I. Logical Empiricism 

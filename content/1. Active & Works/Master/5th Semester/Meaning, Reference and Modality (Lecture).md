@@ -11,6 +11,7 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 - [Overleaf: MRM, 3](https://www.overleaf.com/read/fvzshcmnnfck#558c90)
 ## Lecture Notes
 #### 10.09, I. Introduction
+[[MRM Slides A.pdf]]
 - **Formal Semantics**
 	- In order to do any formal semantics, one should assume:
 		1. There is structure in the world
@@ -128,6 +129,7 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 	- Limits: irrefl. and univ. cannot be characterised. That is though intuitive.
 		- Time is possibly circular, and this is not here. Can we exclude parallel times?
 #### 24.09, V. Kripke & Modal Predicate Logic
+[[MRM Slides B.pdf]]
 - Lecture based on _Naming and Necessity_, seen mostly in [[The Frequency of Telling Stories]].
 - _a priori_ $\not \Leftrightarrow$ _necessary_
 	- Goldenbach conjecture is nec. true or nec. false, it does not imply anything epistemic
@@ -160,12 +162,42 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 		- $\mathcal{M},w \models \forall_x \phi$ iff $\forall_{d \in D_w} \mathcal{M}, w, V[x/ d] \models \phi$ 
 		- "same" $\Vdash$ "same" $\Vdash \phi$, and for $\exists$ 
 		- $\square$ as usual.
-	- **Tautologies & False Tautologies**
-		- Hard Modality:
-			- $\models \square (a = a)$
-			- $\models \square (Fa \to Fa)$ 
+	- **Hard and Friendly Modality**
+		- Hard Modality: $\mathcal{M}, w \models \square_h \varphi \Leftrightarrow \forall_{w' \in W} w R w' \to \mathcal{M}, w' \models \varphi$
+			- $\mathcal{M}, w \Vdash \square_h \varphi \Leftrightarrow \forall_{w' \in W} w R w' \to \mathcal{M}, w' \Vdash \varphi$
+			- $\not \models_h \square (a = a)$
+			- $\not \models \square_h (Fa \to Fa)$ 
+		- Friendly Modality: $\mathcal{M}, w \models \square_f \varphi \Leftrightarrow \forall_{w' \in W} (w R w' \land def.(\varphi)) \to \mathcal{M}, w' \models \varphi$
+			- Distribution of $\square_f$ is not valid.
+			- we could have $\square F(a)$ but $\Diamond \lnot \exists_x F(x)$ 
 	- **String & Tolerant Modality**
-		- $\Gamma \models_s \psi$ iff in all models $\forall_{\gamma \in \Gamma} (\mathcal{M}, w \models \gamma )\Rightarrow \mathcal{M}, w \models \phi$ 
+		- $\Gamma \models_s \psi$ iff in all models $\forall_{w \in W}\forall_{\gamma \in \Gamma} (\mathcal{M}, w \models \gamma )\Rightarrow \mathcal{M}, w \models \phi$
+			- formulae with individual terms are never valid
+			- $F(a) \models_s F(a)$ but $\not \models_s (F(a)\to F(a))$ 
+		- $\Gamma \models_p \psi$ iff $\psi$ is defined and in all models $\lnot \exists_{w \in W}\forall_{\gamma \in \Gamma} (\mathcal{M}, w \models \gamma )\Rightarrow \mathcal{M}, w \Vdash \phi$ 
+		- Some Results: [[IMG_0505.jpeg]]
+	- **Barcan Formulae** &co
+		- $\forall_x \Diamond F(x) \to \Diamond \forall_xF(x)$, no.
+		- $\square \exists_x F(x) \to \exists_x \square F(x)$, no.
+		- $\Diamond \forall_x F(x) \\to \forall_x \Diamond F(x)$, increasing domains
+			- inc.dom., i.e. $\forall_{w, w'} w R w' \to D_w \subseteq D_{w'}$
+			- alw. valid with "$\square_h$" and "$\models_t$"
+		- $\exists_x \square F(x) \to \square \exists_x F(x)$
+			- alw. valid with "$\square_h$" and "$\models_t$"
+			- only of objects with necessary existence.
+		- $\square \forall_x F(x) \to \forall_x \square F(x)$
+			- valid with "$\square_h$" and inc.dom.
+			- alw. valid with "$\square_f$"
+		- $\exists_x \Diamond F(x) \to \Diamond \exists_x F(x)$
+			- not valid with "$\models_s$" and "$\square_h$"
+		- $\exists_x \Diamond_h F(x) \models_s \Diamond_h \exists_xF(x)$
+		- $\square_h \forall_x F(x) \not \models_s \forall_x \square_h F(x)$ 
+		- $\forall_x \square F(x) \to \square \forall_x F(x)$ decreasing domains (Barcan Formula)
+			- dec.dom., i.e. $\forall_{w, w'} w R w' \to D_w \supseteq D_{w'}$
+			- not valid with str.inc.dom.
+		- $\Diamond \exists F(x) \to \exists_x \Diamond F(x)$ 
+			- Quine: nonsense
+			- others: if we can refer to smth, it must be there
 #### 01.10, VI. Real, Possible and Impossible Objects
 ...
 
