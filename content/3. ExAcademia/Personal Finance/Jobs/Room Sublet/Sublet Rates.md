@@ -44,9 +44,7 @@ For two guests:
 
 If you wish to have the whole room to yourself, with no one else (not even me) present, see [[Stay_in_Amsterdam__Xmas.pdf]] and make sure to let me know at least weeks in advance: [[Contacts]].
 ## 💳 Payment Options
-
 - **Cash:** To be paid in EUR only.
-- **PayPal:** [https://www.paypal.me/simonetestino](https://www.paypal.me/simonetestino)
 - **Bank Transfer:**
 	- **Account Holder:** Simone Testino
 	- **IBAN:** IT94I0338501601100080084122
