@@ -89,6 +89,6 @@ I use [https://q.uiver.app](https://q.uiver.app/) to draw the diagrams.
 - Equivalence _preserves_ and _reflects_ terminal objects (and most other properties)
 - $F: \mathcal{C} \to \mathcal{D}$ is an equivalence if:
 	1. $F$ is essentially surjective
-		- that is: $\forall_{D \in \mathcal{D}_0} \exists_{C \in \mathcal{C}_0} FC \cong D$
+		- that is: $\forall_{D \in \mathcal{D}_0} \exists_{C \in \mathcal{C}_0} F(C) \cong D$
 	2. $F$ is fully faithful
 		- $F$ is full and faith

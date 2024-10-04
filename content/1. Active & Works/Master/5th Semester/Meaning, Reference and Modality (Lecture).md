@@ -175,7 +175,7 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 			- formulae with individual terms are never valid
 			- $F(a) \models_s F(a)$ but $\not \models_s (F(a)\to F(a))$ 
 		- $\Gamma \models_p \psi$ iff $\psi$ is defined and in all models $\lnot \exists_{w \in W}\forall_{\gamma \in \Gamma} (\mathcal{M}, w \models \gamma )\Rightarrow \mathcal{M}, w \Vdash \phi$ 
-		- Some Results: [[IMG_0505.jpeg]]
+		- Some Results: [[Some_Results_MPL.jpeg]]
 	- **Barcan Formulae** &co
 		- $\forall_x \Diamond F(x) \to \Diamond \forall_xF(x)$, no.
 		- $\square \exists_x F(x) \to \exists_x \square F(x)$, no.
@@ -230,3 +230,5 @@ If I’ve understood your suggestion correctly, your proposed semantics wouldn�
 **My Reply**:<br>
 I first try to make to make clear to myself how statements like $h = p$ are possible in the predicate modal logic seen in class, and then note that, to my understanding, there is no difference in forming such statements in "_mine_" or in the _given_ semantics. <br>
 To begin, in order to construct the statement ‘Hesperus is Phosphorus’ we wish to have variables $h, p$ that _denote_ the same object. Since we have taken names to refer rigidly, we have the general principle that each name, that is a constant $d \in \bigcup_{w \in W}D_w$, always refers to the _same object_ when interpreted in the different worlds. More precisely, that is for constants $h, p \in \bigcup_{w \in W} D_w$ we have that for every Kripke model $\mathcal{M}$,  $\forall_{w \in W} h, p \in D_w \to (\mathcal{M}, w \models h = p)$. Now, such a construction is similarly valid in the semantics I have given without any difference that I can see. 
+
+A crucial difference is that the semantic I described gives the hard modality since if $\varphi \not \in \mathcal{L}^w \to \square \varphi \not \in \mathcal{L}^w$ and also strict validity since for every Kripke model $\mathcal{M}$ I have $\forall_{\varphi \in \bigcup_{w \in W}\mathcal{L}^w} \forall_{w \in W} \varphi \not \in \mathcal{L}^w \to (\mathcal{M}, w \not \models \varphi)$. In fact, I do not prove results like "$\models a = a$", since for $a \not \in D_w$ it would not hold
