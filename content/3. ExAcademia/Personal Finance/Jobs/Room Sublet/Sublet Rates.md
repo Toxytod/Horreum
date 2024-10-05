@@ -1,7 +1,7 @@
 ---
 draft: 
 date: 2024-09-01
-title: "💰 Payment Options"
+title: Payment Options
 ---
 This page provides all the necessary information regarding the payment options for your stay. Below you find details on rates for single and double guests, as well as special rates for specific periods. Payment options are listed at the end.
 ## 💰 Deposit
@@ -44,9 +44,11 @@ For two guests:
 
 If you wish to have the whole room to yourself, with no one else (not even me) present, see [[Stay_in_Amsterdam__Xmas.pdf]] and make sure to let me know at least weeks in advance: [[Contacts]].
 ## 💳 Payment Options
-- **Cash:** To be paid in EUR only.
+- (preferred) **Revolut**: [@simonetestino](https://revolut.me/simonetestino), or by scanning: [[Revolut_QR.jpeg]]
 - **Bank Transfer:**
 	- **Account Holder:** Simone Testino
 	- **IBAN:** IT94I0338501601100080084122
 	- **BIC/SWIFT:** ISYBITMM
 	- **Bank Name:** Isybank by Intesa San Paolo, Italy
+
+Any amount of cash above 50€ is not accepted for safety reasons. Also Paypal payments above 10€ are not accepted if the customer does not reserve to pay the respective fees, around 3% of the total sum.
