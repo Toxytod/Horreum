@@ -75,19 +75,21 @@ I use [https://q.uiver.app](https://q.uiver.app/) to draw the diagrams.
 - $F$  _fully faithful has _reflection_ on isos, i.e. if $\alpha: A \to B$ s.t. $F_1(\alpha)$ iso, then $\alpha$ iso.
 #### Natural Transformation
 - for $\mathcal{C}, \mathcal{D}$ ex. $[\mathcal{C}, \mathcal{D}]$ cat. s.t. $[\mathcal{C}, \mathcal{D}]_0 = Hom_{\textbf{Cat}}(\mathcal{C}, \mathcal{D})$, $[\mathcal{C}, \mathcal{D}]_1$ are _natural transformations_
+	- an element of it is $\mu_C : F(C) \to G(C)$ 
 	- for $F, G: \mathcal{C} \to \mathcal{D}$ a nat.tr. $\sigma : F \Rightarrow G$ is a fam. of morph. $\forall_{C \in \mathcal{C}_0}\sigma_C : F(C) \to G(C)$ s.t.
 		1. for $\forall_{C, C' \in \mathcal{C}_0} \exists_{\alpha \in Hom_\mathcal{C}(C, C')} Diag.Comm.$, (Naturality Condition)
 			1. $Diag$: $F(C) \to^{F(\alpha)}FC' \to^{\sigma_{C'}} G(C')$ and $F(C) \to^{\sigma_C} G(C) \to^{G(\alpha)} G(C')$ 
 	- if $\sigma: F \Rightarrow G$ in $[\mathcal{C}, \mathcal{D}]$ is iso. iff $\forall_{C \in \mathcal{C}_0} iso.(\sigma_C)$ 
+	- note: $\circ: [\mathcal{D}, \mathcal{E}] \times [\mathcal{C}, \mathcal{D}] \to [\mathcal{C}, \mathcal{E}]$, functor composition, is ==the object part of a functor==, 3.3
 #### Equivalence of Categories
 - $\mathcal{C} \simeq \mathcal{D}$ if there are functors $F: \mathcal{C} \to \mathcal{D}$, $G: \mathcal{C} \to \mathcal{D}$ s.t.
 	1. $G \circ F \cong 1_\mathcal{C}$
 	2. $F \circ G \cong 1_\mathcal{D}$ 
-	- called _equivalence_ and $G$ is the _pseudo-inverse_
+	- it is called _equivalence_ and $G$ is the _pseudo-inverse_
 	- also $\cong$ is isomorphism of categories
 		- $\mathcal{C} \cong \mathcal{D}$ iff ex. $F' : \mathcal{C} \to \mathcal{D}$, $G' : \mathcal{D} \to \mathcal{C}$ s.t. (i) $G \circ F = 1$, (ii) $F \circ G = 1$
 - Equivalence _preserves_ and _reflects_ terminal objects (and most other properties)
-- $F: \mathcal{C} \to \mathcal{D}$ is an equivalence if:
+- $F: \mathcal{C} \to \mathcal{D}$ is an equivalence iff:, 3.6
 	1. $F$ is essentially surjective
 		- that is: $\forall_{D \in \mathcal{D}_0} \exists_{C \in \mathcal{C}_0} F(C) \cong D$
 	2. $F$ is fully faithful

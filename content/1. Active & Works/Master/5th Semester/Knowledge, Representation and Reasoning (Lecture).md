@@ -106,3 +106,5 @@ num(1..2) %all nums in between
 #### 23.09, VI. Games with ASP
 - we use `T = #sum {C, X, Y, Z : P(X), P(Y)}` sums only `C`s but allows the sum of two equal `C`s if the `X, Y, Z` are different.
 - `D = #count { M : edge(N, M, C)}` workds similarly, or also `#max`
+#### 04.10, X. More Theoretical Foundations
+- 
