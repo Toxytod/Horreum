@@ -199,7 +199,21 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 			- Quine: nonsense
 			- others: if we can refer to smth, it must be there
 #### 01.10, VI. Real, Possible and Impossible Objects
-...
+- Russel on Definite Descriptions: $THE(A)(B) := \exists_x(\forall_y(A(y) \leftrightarrow x = y) \land B(x))$  
+- Kripke & Stalnaker: there is nothing of which you can say that it does not exist.
+- **Quine**: _On What There Is_:
+	- "_This is the Platonic riddle of nonbeing. Nonbeing must in some sense be, otherwise what is that there is not?_"
+	- _Take, for instance, the possible fat man in that doorway; and, again, the possible bald man in that doorway. Are they the same possible man? How do we decide?_
+	- So we note:
+		1. Possibly Pegasus lives and flies
+		2. Hence the sentence "Pegasus lives and flies" is _consistent_
+		3. Conclude: "there is something such that it lives and flies" is consistent
+	- _To be assumed as an entity is, purely and simply, to be reckoned as the value of a variable._
+	- _\[A\] theory is committed to those and only those entities to which the bound variables of the theory must be capable of referring in order that the affirmations made in the theory be true_ \[p. 13\]
+	- Using Russell's definite descriptions: there is an attribute of _being pegasus_ that is:
+		- unanalysable, irreducible. That is not a description, not a list of predicates.
+- **A Formal Understanding**, \[S. 73\]
+	- ....
 
 ## Questions
 ### Alternative Semantics to Modal Predicate Logic

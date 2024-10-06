@@ -1,0 +1,1 @@
+I list in this folder the writings I produced in the last years, I divide them in [[Index of Bachelor Works]] and [[M.Sc. Logic (UvA)]].
