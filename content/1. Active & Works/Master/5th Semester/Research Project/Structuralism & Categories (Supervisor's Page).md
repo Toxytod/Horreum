@@ -1,3 +1,8 @@
+---
+date: 2024-10-06
+---
+
+
 This is a subpage of the [[Structuralism & Categories (Homepage)]].
 
 In this page all material that will be relevant to the supervisors for the project [[Structuralism & Categories (Homepage)]] is uploaded and revised.
@@ -6,7 +11,10 @@ In particular here are a list of the main questions that should be answered befo
 - Is there someone in particular within or outside the ILLC, who you think could give us some particular insights that could be useful for the project?
 - Considering [[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]], how many credits would you estimate for the project? Does it get decided before or after the project is done? If there are doubts regarding bureaucratic procedures of this sort, I will directly send an email to Tugba on this.
 ##### To Prof. van den Berg
-- Given the presentation of the project as in [[Structuralism & Categories (Homepage)#Project Structure & Goals]] are you interested in supervising the project? If not, is there some other member of the faculty in your field you would suggest?
+- Are you interested in supervising the project? To answer, you may consider:
+	- The presentation of the project as in [[Structuralism & Categories (Homepage)#Project Structure & Goals]] 
+	- Despite the high EC of the project ([[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]]), we expect to work autonomously and supervision will be also shared with Dr. Enrico Cinti.
+- If not, is there some other member of the faculty in your field you would suggest?
 #### Literature Q&A
 Clearly, any suggestion of literature is really welcomed, in particular there are some specific topics we are interested in that we would like to investigate more in depth but currently do not have a list of papers to read on it.
 ###### Category Theory
