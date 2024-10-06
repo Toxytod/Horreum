@@ -26,12 +26,10 @@ _To complete your booking, please provide a scan of your documents_, you can sen
 - 🔑 Digital key for room access via the Lieven de Key app.
 - 🌐 Fast WiFi connection: `Ziggo_itdesk`, Password: `dekey2017`.
 - 🧳 Storage space for luggage and clothes, including wardrobe space.
-- 📺 Premium Netflix account (4K resolution, no ads).
 - 🧺 Laundry facilities with washing and drying machines available.
 #### 📊 Comparing Your Stay with Hostels
 Staying here has some great perks compared to typical hostels:
 - 🛌 Private accommodation for 2 people, often at a lower cost than a 10-bed mixed dorm.
 - 🍽️ Access to a kitchen, saving money on meals (eating out usually costs at least €9-10 per meal).
 - 🌐 Fast WiFi connection.
-- 📺 Premium Netflix included.
 - 👬 Lower per-person rates for group and longer stays, while hostels usually have fixed prices.
