@@ -27,6 +27,7 @@ For maximal dosage and other data I used [https://www.drugscience.org.uk/caffein
 - 28.09, 200 mg in pill, no negative effects, moderate positive effect
 - 29.09, 0mg, felt slightly sleepy, also due to poor sleep
 - 30.09, 200 mg in pill, no negative effects, moderate positive effect
+
 **October**:
 - 01.10, 0mg, slightly sleepy compared to previous days, not different from before the first dose.
 

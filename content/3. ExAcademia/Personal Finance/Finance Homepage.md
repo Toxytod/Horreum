@@ -32,7 +32,10 @@ I consider valuations of the US too high, and partially this applies to the EU m
 #### 09.2024
 I didn't do any big change in the asset allocation. I am planning to invest the current liquidity, still maintaining the hope in the Chinese market, despite the absence of good news and losing confidence in CSIQ, which reached another low, making up to -55% from the current average entry price.
 
-I finally chose to sell JD (the day before it did 7% -\_-) and decided to keep BABA and BIDU as the only two single Chinese stocks. 
+I finally chose to sell JD (the day before it did 7% -\_-) and decided to keep BABA and BIDU as the only two single Chinese stocks.
+
+#### 10.2024
+The huge growth of Chinese stocks and my great exposure to them, changed significantly my asset allocation which I discuss in more detail [[Asset Allocation Oct. 2024]].
 
 ## Cash Flow
 ### `Reg_ME` & `Reg_MI`
