@@ -214,7 +214,11 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 		- unanalysable, irreducible. That is not a description, not a list of predicates.
 - **A Formal Understanding**, \[S. 73\]
 	- ....
-
+#### 08.10, VII. Dynamic Semantics
+- the order syntactical natural sentences are said, makes a difference (pronouns, temporal/causal order...)
+- Dynamic Predicate Logic: **DPL**
+	- in DPL: $\exists_x (\varphi) \land \psi \Leftrightarrow^! \exists_x(\varphi \land \psi)$ 
+- 
 ## Questions
 ### Alternative Semantics to Modal Predicate Logic
 We have defined in [[Meaning, Reference and Modality (Lecture)#24.09, V. Kripke & Modal Predicate Logic]] the semantic that answers to the very natural question of how one can introduce first order logic in modal logic. Here I present a semantics that I claim to be equivalent to the presented one but that is simpler in two ways: (i) it does not require the introduction of three valued Weak Kleene Logic and (ii) it does not require the introduction of the reversed semantic consequence symbol.

@@ -94,3 +94,17 @@ I use [https://q.uiver.app](https://q.uiver.app/) to draw the diagrams.
 		- that is: $\forall_{D \in \mathcal{D}_0} \exists_{C \in \mathcal{C}_0} F(C) \cong D$
 	2. $F$ is fully faithful
 		- $F$ is full and faith
+#### Limits
+- for $F: \mathcal{C} \to \mathcal{D}$, a _cone_ is $(D, \mu)$ s.t.  $D \in \mathcal{D}_0$, $\mu: \Delta_D \Rightarrow F$ (cone), 4.1
+	- $\Delta_D : \mathcal{C}\ \to \mathcal{D}$, for $g: D \to D'$
+	- $\Delta_g: \Delta_D \to \Delta_{D'}$ s.t. $(\Delta_g)_C = G$.
+	- $\Delta: \mathcal{D} \to [\mathcal{C}, \mathcal{D}]$
+-  $(D, \mu) \to (D', \mu')$, is a map $g: D \to D'$ s.t. $\mu' \circ \Delta_g = \mu$ (map of cones), 4.1
+- a lim.cone for $F$ is term.obj of $Cone(F)$ (limiting cone)
+- a lim.con for $!: \textbf{0} \to \mathcal{D}$ is term.obj. in $\mathcal{D}$
+	- $Cone(!) \cong \mathcal{D}$ 
+- These section are better understood in the Lecture Notes
+	- 4.1.2
+	- 4.1.3
+	- 4.1.4
+- 
