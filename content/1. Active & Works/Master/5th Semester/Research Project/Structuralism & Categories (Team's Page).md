@@ -1,6 +1,7 @@
 ---
 draft: false
-date: 2024-10-09
+date: ""
+title: Team's Page
 ---
 This is a subpage of the [[Structuralism & Categories (Homepage)]].
 
@@ -26,7 +27,7 @@ These tracks will be the actual essence of the project and the aim of each one o
 - S. Testino: _Different syntactical theories are often different in different languages having a common set-theoretic (/categorical) grounding, a formal account of translations between languages is necessary._ (see [[Bachelor Thesis]])
 - A. Sittoni: a ton of technical relevant in category theory can be found [here](https://drive.google.com/drive/folders/1-PKOMLwWCvZb8dQ43dpHyWLGiw2vnQJO). Andrea will not directly participate to the project, but can certainly answer questions about the claim he pointed to in his thesis, which we may develop within the project.
 ### Project's Roles
-The project credits will likely reflect the roles each participant takes, clearly the same person may have multiple roles, the sharing of one role may add some organisational complexity but may be taken into consideration for the more extensive roles.
+The project credits will likely reflect the roles each participant takes, clearly the same person may have multiple roles, the sharing of one role may add some organisational complexity but may be taken into consideration for the more extensive roles. In the following section I present the roles, while in [[Structuralism & Categories (Tracks & Roles)]]
 ##### Overseer's Roles
 For the most technical parts of the project, it is necessary to have someone that checks that all that have been introduced is correct. Less challenging but still crucially important, the team's members having these roles should also check that the notation among different parts of the project is consistent.
 - **Head of Math Oversight**: Ensures that all mathematical proofs, theorems, and lemmas of the whole project are logically sound and accurate. They will be required also to have read _all relevant papers_ in order to ensure full comprehension of the mathematical proofs.
@@ -37,6 +38,6 @@ On a less technical side, but still crucial to ensure the best clarity of the pr
 - **Head of Conceptual Grounding**: Verifies that all notions are properly defined and thoroughly explained, either within the main content or referenced from background material. They should also check again notational consistency, in particular of the more discorsive sections that may be overlooked by HMO and HPO. 
 ##### Active Roles
 These roles are the most essential to the actual construction of the project. Each one of these will be in function of some of the [[Structuralism & Categories (Team's Page)#Project's Tracks]], depending on whether they are [[Structuralism & Categories (Team's Page)#Background Tracks]] or [[Structuralism & Categories (Team's Page)#Claim Tracks]].
-- **Idea Developer**: They come up with an original idea presented it to the group and clearly write down a first exposition of the claim. They have then discussed it with all other team's members competent in the field and got "general approval". The idea will then be added to the [[Structuralism & Categories (Team's Page)#Claim Tracks]].
-- **Idea's Writer**: They write down the proper text getting to the conclusion exposed in one of the [[Structuralism & Categories (Team's Page)#Claim Tracks]] and ensure that everything they begin with is already presented in one of the [[Structuralism & Categories (Team's Page)#Background Tracks]] ensuring notational consistency.
-- **Background Writer**: Once taken one of the [[Structuralism & Categories (Team's Page)#Background Tracks]], they expose it in the most clear way possible and keeping touch with people writing on the respective [[Structuralism & Categories (Team's Page)#Claim Tracks]].
+- **Idea Developer**: They come up with an original idea presented it to the group and clearly write down a first exposition of the claim. They have then discussed it with all other team's members competent in the field and got "general approval". The idea will then be added to the [[Structuralism & Categories (Tracks & Roles)#Claim Tracks]].
+- **Idea's Writer**: They write down the proper text getting to the conclusion exposed in one of the [[Structuralism & Categories (Tracks & Roles)#Claim Tracks]] and ensure that everything they begin with is already presented in one of the [[Structuralism & Categories (Tracks & Roles)#Background Tracks]], ensuring notational consistency.
+- **Background Writer**: Once taken one of the [[Structuralism & Categories (Tracks & Roles)#Background Tracks]], they expose it in the most clear way possible and keeping touch with people writing on the respective [[Structuralism & Categories (Tracks & Roles)#Claim Tracks]].
