@@ -115,4 +115,21 @@ I followed this course by, Prof. [Nick Bezhanishvili]() during my [[5th Semester
 		- (it is not FO-def.)
 	- $\mathcal{F}$ not trans., $\mathcal{F}$ not conv.well.foud. then $\mathcal{F} \not \models \square ( \square p \to p) \to \square p$.
 	- $\mathcal{F} \models \varphi \Leftrightarrow \forall_{p} \forall_x ST_x (\varphi)$ ==?==
-	- 
+#### 08.10, VI. Correspondence
+- $(\mathcal{F}, V) \models \varphi \Leftrightarrow (\mathcal{F}, V) \models \forall_x ST_x(\varphi)$, this is the general form of correspondence
+	- $\mathcal{F} \models \varphi(p_1, ..., p_n) \Leftrightarrow \mathcal{F} \forall_{p_1, ..., p_n} \forall_x ST_x (\varphi)$, with a second order quantification
+	- for some, second order is not needed: $\mathcal{F} \models p \to \Diamond p \Leftrightarrow \mathcal{F} \models \forall_x xR x$
+		- which is: $\forall_{p} \forall_x ST_x (p \to \Diamond p)$
+-  $\forall_{\varphi \in \mathcal{L}_{ML}} \exists_{\alpha(x) \in \mathcal{L}_{FOL}} \forall_{\mathcal{F} = (M, R)} \mathcal{F} \models \varphi \Leftrightarrow \mathcal{F} \models \forall_x \alpha(x)$, call "$\forall_x \alpha(x)$" is a FO-correspondent of $\varphi$.
+	- example: $\mathcal{F} \models \Diamond \top \Leftrightarrow \forall_{p_1, ..., p_n} \forall_x \exists_y (x R y \land y = y) \Leftrightarrow \mathcal{F} \models \forall_{x}\exists_y x R y$ 
+		- $\varphi \in \mathcal{L}_{ML}$ is closed if $\forall_{p \in \text{Prop}}\dot p \not \in \varphi$ 
+		- if $\varphi$ is closed, it has a FO-corr., which is effectively computable form $\varphi$.
+- more clearly than in the book: [[Sahlqvist.pdf]]
+- for $\varphi \in \mathcal{L}_{ML}$, write occurrences as $\dot p \in \varphi$, call it positive if $p$ is under an even number of negations in $\varphi$ 
+	- I write $\dot p \in_+ \varphi$. occurrences are either positive or negative ("$\in_-$")
+- $\varphi \in \mathcal{L}_{ML}$ is positive if $\forall_{p \in \text{Prop}} \dot p \in_+ \varphi$ 
+	- formulae are positive, negative or either of the two.
+	- clearly, $\forall_{\varphi \in \mathcal{L}_{ML}}pos.(\varphi) \Leftrightarrow neg.(\lnot \varphi)$
+- for $\varphi \in \mathcal{L}_{ML}$, $p \in \text{Prop}$ s.t. $\dot p \in_+ \varphi$, let $V$ a val. on $\mathcal{F}$, and $V'$ a val. s.t. $\forall_{q \not = p}V'(q) = V(q)$ and $V(p) \subseteq V'(p)$, then $(\mathcal{F}, V), w \models \varphi \models \varphi \Rightarrow (\mathcal{F}, V'), w \models \varphi$.
+	- $\Leftarrow$ for $\lnot p$.
+- there always is a _minimal valuation_ that makes the formula false

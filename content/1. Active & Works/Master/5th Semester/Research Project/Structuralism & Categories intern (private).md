@@ -2,14 +2,39 @@
 draft: true
 ---
 ### People
-- Sittoni 25.09, 21:00 whatsapp chat: he has very good points, we should make a call and clarify.
 - Josje: Technical Categor-Theoretic parts should be supervised by her.
 - Bardo: Might be the only one I know to also be able to work on the intersection of both fields
+- Jennifer: Physics!! But also Philosophy
 **I should ask to**:
 - David: Category Theory (idk if he knows / cares about phi.sci)
 - PHYSICIANS!!
 - spam in groupchats with google form.
 
+If the thing gets big enough, I may want to have some roles so that everyone knows what their job is, in particular I need:
+- **Responsible of Math Supervision**: check that all proofs, theorems and lemmas are sound
+- **Responsible of Physics Supervision**: check facts are true
+- **Responsible of Overall Coherence**: that everything fits
+- **Responsible of Grounding**: check that every notion is defined & well explained either in the [[Structuralism & Categories (Team's Page)#Claim Tracks]] itself or in some of the [[Structuralism & Categories (Team's Page)#Background Tracks]].
+- **Writer** of a single Track
+- **Cowriter** of a single Track, needs to check that it makes sense, not necessary for all.
+
+The project credits will likely reflect the roles each participant takes.
+#### **Overseer's Roles**
+These roles are primarily focused on technical accuracy and correctness:
+
+- **Head of Math Oversight**: Ensures that all mathematical proofs, theorems, and lemmas are logically sound and accurate.
+- **Head of Physics Oversight**: Verifies that all physical facts and calculations are scientifically accurate and consistent with established principles.
+
+In contrast, the following roles ensure coherence and clarity across the work:
+
+- **Head of Overall Coherence**: Ensures that all sections of the project fit together logically and consistently without contradictions.
+- **Head of Conceptual Grounding**: Verifies that all notions are properly defined and thoroughly explained, either within the main content or referenced from background material.
+
+#### **Active Roles**
+These positions focus on content creation and development:
+
+- **Writer of a Single Track**: Responsible for creating the primary content of a specific track.
+- **Cowriter of a Single Track**: Assists in ensuring clarity and coherence in a particular track.
 ### Paths to Explore
 - Sittoni 25.09, 21:00 whatsapp chat: 
 - Reformulation of [[Structure on Models]]
