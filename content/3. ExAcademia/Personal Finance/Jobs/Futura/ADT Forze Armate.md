@@ -43,4 +43,15 @@ Per questioni di spazio di archiviazione del sito, non carico le slides in PDF; 
 	- Usando le basi di matematica delle scorse tre lezioni, vedremo le basi di fisica per poter fare i primi calcoli. Approfondiremo la legge di gravitazione universale di Newton per poi vedere diversi esercizi e riguardo.
 	- Lezioni _On Demand_ rilevanti: Fisica 1, 2, 6, 7
 	- [Overleaf: ADT Fisica Newtoniana](https://www.overleaf.com/read/qdkyxfwcwtqh#bc7f66)
-- **Martedì 12**, Matematica
+- **Martedì 12**, _Logica_: Esercizi di Logica Verbale
+	- Dopo una breve presentazione sulla teoria di logica verbale, dato che i temi spaziano tra diversi argomenti, ci focalizzeremo sugli esercizi e presenterò temi di teoria direttamente in funzione di quello che vedremo capitare più spesso negli esercizi.
+	- Lezioni _On Demand_ rilevanti: serie su logica verbale
+	- [Overleaf: TBA]()
+- **Martedì 19**, _Matematica_: Sistemi in Algbra, Aritmetica, Trigonometria e Logica Matematica
+	- Riprenderemo a distanza di due mesi i sistemi vedendo come appaiono in diverse categorie di esercizi. Come abbiamo visto fino ad ora, i sistemi appaiono nella stragrande maggioranza e con altissima frequenza dei temi di matematica e logica matematica e vedremo una varietà di quiz nelle diverse aree della matematica che trattano di sistemi.
+	- Lezioni _On Demand_ rilevanti: Matematica 17 - 22 & lezione 19/09/24
+	- [Overleaf: TBA]()
+- **Martedì 26**, _Fisica_: Ottica & Acustica
+	- Dopo un breve ripasso della lezione di trigonometria, vedremo l'importanza della sinusoide in fisica e le sue applicazioni sia nell'ottica che nell'acustica. La lezione sarà per lo più teorica e tratterà sia di matematica che di fisica, almeno l'ultima mezz'ora sarà dedicata ad esercizi in entrambe le materie.
+	- Lezioni _On Demand_ rilevanti: Fisica 13, 14 & lezione 19/09/24
+	- [Overleaf: TBA]()
