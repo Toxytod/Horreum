@@ -2,6 +2,9 @@
 draft: false
 title: Airbnb in Amsterdam
 ---
+Provisional Notes:
+
+https://www.hausing.com/properties-for-rent-amsterdam
 ## Legal Constrains
 First of all (given the pricy [fines](https://www.amsterdam.nl/wonen-leefomgeving/wonen/boetes-overtredingen-vakantieverhuur-bed/)), here is a list of the [laws](https://www.amsterdam.nl/wonen-leefomgeving/wonen/bedandbreakfast/regels/) on B&B (the source has been automatically translated by Safari) in Amsterdam and below each one, how I proceed to make sure I respect it. I didn't paste some that are either obvious or do not apply to my case:
 1. "You have stayed at the address of your B&B for at least 6 months for the past 12 months." & "You are registered with the municipality of Amsterdam at the address of the B&B."
