@@ -1,10 +1,9 @@
 ---
 title: Tracks & Roles
 ---
-
 This is a subpage of [[Structuralism & Categories (Team's Page)]], reading that page ensures understanding of this one.
 ## Organisation & Oversight
-For better understanding see [[Structuralism & Categories (Team's Page)#Overseer's Roles]]
+For better understanding see [[Structuralism & Categories (Team's Page)#Overseer's Roles]].
 ### Overseer's Roles
 - **Head of Math Oversight**: `Empty`
 - **Head of Physics Oversight**: `Empty`

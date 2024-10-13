@@ -23,6 +23,8 @@ The courses of a period make up to 24C + 17EC
 - Topics in Modal Logic (Lecture), ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119338), 6EC)
 - Philosophical Logic (Lecture) ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118758), 6EC)
 - Dynamic Epistemic Logic ([link]() 6EC)
+- (Philosophy of Cognition)
+- (Philosophy of Logic)
 ###### 1st Year, 3rd Period
 Here I list the potential research projects
 - [[Structuralism & Categories (Homepage)]]
