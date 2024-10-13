@@ -18,7 +18,7 @@ Per questioni di spazio di archiviazione del sito, non carico le slides in PDF; 
 			- Se aveste dubbi su come usare polinomi ed equazioni di base, raccomando di guardare queste lezioni prima
 		- A lezione vedremo: Matematica 17 - 22
 	- [Overleaf: ADT Sistemi](https://www.overleaf.com/read/fkghdjhqngzj#4f7f8f)
-#### 10/24
+#### Ottobre 2024
 - **Martedì 1**, _Logica_: Logica Matematica e Numerica
 	- Vedremo le basi del ragionamento numerico, da teoria degli insiemi, grafici, proporzioni, tempo e date e diversi altri temi trattati. La lezione sarà primariamente teorica nel tentativo di ripercorrere tutti gli argomenti di logica numerica, a fine lezione farò un sondaggio per capire se fosse il caso di ripetere gli argomenti più complessi la lezione dopo, facendo degli esercizi assieme.
 	- Lezioni _On Demand_ rilevanti: Logica 10 - 20
@@ -27,15 +27,20 @@ Per questioni di spazio di archiviazione del sito, non carico le slides in PDF; 
 	- Vedremo le basi di teoria dei numeri: dai naturali fino ai numeri reali. Vedremo poi il concetto di numeri primi e ci concentreremo sugli esercizi, il contenuto di teoria sarà sufficientemente ridotto.
 	- Lezioni _On Demand_ rilevanti Matematica: 1 - 6
 	- [Overleaf: ADT Aritmetica I](https://www.overleaf.com/read/hjfbmntzrwyg#fb9f3f)
-- **Martedì 15**, _Matematica_: Aritmetica II
-	- Vedremo il minimo comune multiple, calcoli con le frazioni e le proporzioni, anche in questa lezione avremo molto tempo da dedicare agli esercizi
+- **Martedì 15**, _Matematica_: Aritmetica I (bis)
+	- Finiremo gli esercizi iniziati nella lezione scorsa approfondendo gli argomenti annunciati o chiesti in classe, in particolare: criteri di divisibilita per numeri prima e la differenza tra equazioni impossibili ed indeterminate (in partcolare come gestirle nella risoluzione di sistemi).
+	- Lezioni _On Demand_ rilevanti Matematica: 7 - 11
+- **Martedì 22**, _Matematica_: Aritmetica II
+	- Vedremo il minimo comune multiple, calcoli con le frazioni e le proporzioni, anche in questa lezione avremo molto tempo da dedicare agli esercizi.
 	- Lezioni _On Demand_ rilevanti Matematica: 7 - 11
 	- [Overleaf: ADT Aritmetica II](https://www.overleaf.com/read/htbthsqrcvnh#d40cfc)
-- **Martedì 22**, _Matematica_: Algebra I
+- **Martedì 29**, _Matematica_: Algebra I
 	- Vedremo le basi sui polinomi fino ai metodi di risoluzione di equazioni di primo grado
 	- Lezioni _On Demand_ rilevanti Matematica: 12 - 16
 	- [Overleaf: ADT Algebra I](https://www.overleaf.com/read/hfjspckftwgz#f3a0b2)
-- **Martedì 29**, _Fisica_: Unità di Misura, Vettori e Newton
+#### Novembre 2024
+- **Martedì 5**, _Fisica_: Unità di Misura, Vettori e Newton
 	- Usando le basi di matematica delle scorse tre lezioni, vedremo le basi di fisica per poter fare i primi calcoli. Approfondiremo la legge di gravitazione universale di Newton per poi vedere diversi esercizi e riguardo.
 	- Lezioni _On Demand_ rilevanti: Fisica 1, 2, 6, 7
 	- [Overleaf: ADT Fisica Newtoniana](https://www.overleaf.com/read/qdkyxfwcwtqh#bc7f66)
+- **Martedì 12**, Matematica
