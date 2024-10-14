@@ -9,6 +9,7 @@ Here is the code I usually add to all documents created after October 2024 which
 \usepackage{tikz}
 \usepackage{xcolor}
 \usepackage{csquotes}
+\usepackage{enumerate}
 %\usepackage{stix2}
 \usepackage{hyperref}
 \usepackage{wasysym}
@@ -62,6 +63,14 @@ Here is the code I usually add to all documents created after October 2024 which
 \newcommand{\To}{\Rightarrow}
 \newcommand{\oT}{\Leftarrow}
 \newcommand{\ToT}{\Leftrightarrow}
+\newcommand{\ot}{\leftarrow}
+\newcommand{\tot}{\leftrightarrow}
+\newcommand{\Prop}{\text{Prop}}
+\newcommand{\Atom}{\text{Atom}}
+\newcommand{\FV}{\text{FV}}
+\newcommand{\FOL}{\mathcal{L}_{FOL}}
+\newcommand{\PL}{\mathcal{L}_{PL}}
+\newcommand{\Le}{\mathcal{L}_{\epsilon}}
 
 \theoremstyle{definition}
 \newtheorem{Definition}{Definition}[section]

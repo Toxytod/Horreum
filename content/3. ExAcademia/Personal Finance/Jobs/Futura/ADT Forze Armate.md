@@ -6,7 +6,7 @@ Per ogni informazione su di me, consultate pure la homepage [[index]] (in ingles
 ### 🗓️ Calendario del Materiale
 Qui trovate il materiale che verrà presentato nelle lezioni passate e future, tutte le lezioni iniziano alle 18:00.
 Per questioni di spazio di archiviazione del sito, non carico le slides in PDF; sono però, una volta finite, sempre caricate sulla [Cartella Google Drive](https://drive.google.com/drive/folders/1-G85gGVLGsLwMt0zx2382JGu9VrgwMnA). Inoltre, prima che le slides siano terminate, carico spesso il link Overleaf dove trovate anche il codice $\LaTeX$ (per i più nerd a cui potrebbe interessare); facendo un account Overleaf è anche possibile scaricare le slides prima che siano completate.
-#### 09/24
+#### Settembre 2024
 - **Giovedì 19**, _Matematica_: Trigonometria
 	- Continuando dalla lezione precedente, riprendo le basi di trigonometria per poi concludere l'argomento. Primi 45' di teoria poi esercizi. 
 	- Lezioni _On Demand_ rilevanti: Matematica 33 - 36

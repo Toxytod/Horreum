@@ -40,6 +40,8 @@ For maximal dosage and other data I used [https://www.drugscience.org.uk/caffein
 - 09.10, 200 mg in pill, no negative effects, moderate positive effect
 - 10.10, 200 mg in pill, no negative effects, moderate positive effect
 - 11.10, 400 mg in pill, no negative effects, moderate positive effect
+- 12.10, 200 mg in pill, no negative effects, moderate positive effect
+- 13.10, 200 mg in pill, no negative effects, moderate positive effect
 
 The calendar will soon be a encoded in Python, here is how the class will look like:
 **Caffeine Intake**
