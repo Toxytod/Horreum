@@ -13,7 +13,3 @@ Here I list my solutions for the assignments in the respective Overleaf files:
 8. [Overleaf: MPML, TH-2](https://www.overleaf.com/read/jmznqcsxnycx#877e21)
 9. [Overleaf: MPML, 6](https://www.overleaf.com/read/cbvbwjmxmwqj#70741c)
 10. [Overleaf: MPML, 7](https://www.overleaf.com/read/rkkgjnqkrvth#27db60)
-
-#### Second Order Logic
-- an Henkin interpretation $\mathcal{I} = \langle \mathcal{D}, \mathcal{S}, \mathcal{V} \rangle$ \[S. 25\]
-	- 

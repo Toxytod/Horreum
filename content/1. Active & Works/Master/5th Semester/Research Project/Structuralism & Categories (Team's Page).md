@@ -9,6 +9,8 @@ Given the diversity [[Structuralism & Categories (Homepage)#Project Structure & 
 - _Philosophers_: in particular experts in Philosophy of Science, but also generally in epistemology, metaphysics & ontology and also logic & foundations of mathematics.
 - _Mathematicians_: mainly students who have expertise in Category Theory and related fields. 
 - _Physicists_: anyone with a solid background in mathematical physics (I know so little that I do not even know which fields in particular are relevant, so we desperately need physicists!)
+
+Important details on [[Structuralism & Categories (Supervisor's Page)#Bureaucracy]] are available on the [[Structuralism & Categories (Supervisor's Page)]], e.g. how many ECs one can get, deadline ecc.
 ## The Team
 Other than me (I present myself already in [[Structuralism & Categories (Homepage)#Personal Resources of the Project]]), I will list here the other teammates. There currently are a few candidates, I will take the choice of the team more seriously once the supervision is guaranteed (see [[Structuralism & Categories (Supervisor's Page)]].
 ### Overall Structure of the Work

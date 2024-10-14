@@ -107,4 +107,6 @@ I use [https://q.uiver.app](https://q.uiver.app/) to draw the diagrams.
 	- 4.1.2
 	- 4.1.3
 	- 4.1.4
-- 
+- _complete categories_:
+	- % sets, top, grps, ring, ab.gr, vs. over a fixed field, cat. (fields are not!)
+%5.2 & 6 skipped!!  See email 14.10

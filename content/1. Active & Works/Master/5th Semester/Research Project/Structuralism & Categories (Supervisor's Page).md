@@ -1,28 +1,21 @@
 ---
-date: 2024-10-06
+date: 2024-10-14
+title: Supervisor's Page
 ---
 This is a subpage of the [[Structuralism & Categories (Homepage)]].
 
-In this page all material that will be relevant to the supervisors for the project [[Structuralism & Categories (Homepage)]] is uploaded and revised.
-### Organisational Q&A
-In particular here are a list of the main questions that should be answered before getting started with the project:
-- Is there someone in particular within or outside the ILLC, who you think could give us some particular insights that could be useful for the project?
-- Considering [[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]], how many credits would you estimate for the project? Does it get decided before or after the project is done? If there are doubts regarding bureaucratic procedures of this sort, I will directly send an email to Tugba on this.
-#### To the Administration
-1. Am I allowed to organise a research project that involves other students too? 
-	- Is it possible to make it so that, every research project of each student is independent so that the amount of credits and work done by each student can vary significantly?
-2. How is the amount of credits for the project determined? Is just the supervisor the one deciding how much it will be valued?
-#### To Prof. van den Berg
-- Are you interested in supervising the project? To answer, you may consider:
-	- The presentation of the project as in [[Structuralism & Categories (Homepage)#Project Structure & Goals]] 
-	- Despite the high EC of the project ([[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]]), we expect to work autonomously and supervision will be also shared with Dr. Enrico Cinti.
-- If not, is there some other member of the faculty in your field you would suggest?
-#### To Dr. Cinti
-All questions have been answered in the last call.
-#### Literature Q&A
-Clearly, any suggestion of literature is really welcomed, in particular there are some specific topics we are interested in that we would like to investigate more in depth but currently do not have a list of papers to read on it.
-###### Category Theory
-- Do you think that the literature on Morita Equivalence is accessible to students who completed the course in Category Theory? If not, is there some resource you would suggest to get to the required level?
-- It may be useful to have some knowledge on the processes used to _translate_ the mathematical praxis from the familiar set-theoretic foundation to the categorical one. In particular, this may be employed to have a more _categorical_ understanding of those scientific theories which have already been formalised in standard (hence set-theoretic) mathematics. I imagine such a literature may be found in categorical foundations of mathematics.
-###### Philosophy of Science
-Most literature questions have already been addressed, new ones will certainly come up.
+In this page all material that will be relevant to the supervisors for the project [[Structuralism & Categories (Homepage)]] is uploaded and revised. 
+## Involvement of the Supervisors
+During the project, we will first work together as a united group to ensure that each student has the necessary background to fully understand the basic literature on structuralism and issues related to theoretical equivalence (for the list of papers, see [[Structuralism & Categories (Homepage)#Literature to Explore]]). This phase will only require the supervisors to answer some of our questions as we go through the reading material.
+
+In the second phase of the project, some of us will develop original ideas that we decide to write about (see [[Structuralism & Categories (Tracks & Roles)#Claim Tracks]]). Before moving into the actual writing, we may ask for a meeting where the group member presents their idea and seeks feedback.
+
+Finally, the supervisors will receive a document encompassing the entire project, which will be broken down into each student's individual contributions to meet the requirements of [[Structuralism & Categories (Supervisor's Page)#Bureaucracy]].
+## Bureaucracy
+While the content and the proper output of the project will be one single organic work involving multiple tracks ([[Structuralism & Categories (Tracks & Roles)#Claim Tracks]] & [[Structuralism & Categories (Tracks & Roles)#Background Tracks]]) written by each one of the group's members, the bureaucracy to get a recognisable research project out of it requires some further steps. Though, the current bureaucratic form of the project, should not confine in any way the intensions of the projects (see [[Structuralism & Categories (Homepage)#Project Structure & Goals]]).
+
+Under a solely bureaucratic perspective, the project will be structured as follows: there will be two independent projects and each one of the students participating to each of the projects will be submitting their own document:
+- The first project will be supervised by both Prof. van den Berg & Dr. Cinti, each one of the students submitting the sufficient amount of work will receive 6EC (with passed / not passed)
+- The second project will be supervised by Dr. Cinti [1] only and will give 6 - 9EC (with passed / not passed) depending on the contributions; the submission for this project clearly must have empty intersection with what submitted for the first project.
+
+[1]: that is, if Dr. Cinti is allowed to supervise a project by himself; this question will be answered within the end of the week.

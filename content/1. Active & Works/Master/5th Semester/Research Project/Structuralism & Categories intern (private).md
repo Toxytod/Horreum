@@ -10,6 +10,30 @@ draft: true
 - PHYSICIANS!!
 - spam in groupchats with google form.
 
+# TODO
+- [ ] Write to Chinese cool guy
+- [ ] Spam messages around (?)
+- [ ] Make undecided people decide 
+- [ ] Bureaucratic confirmation from Jennifer
+- [ ] To: Cinti & Tugba, can you supervise?
+- [x] Update team's page
+
+
+Beuracracy:
+- One project supervised by Benno & Enrico, 6EC to each one of the participants
+- One project supervised by Enrico only, 6 - 9 ECs to each one of the participants (Q: can Enrico supervise the project?)
+### Organisational Q&A
+In particular here are a list of the main questions that should be answered before getting started with the project:
+- Is there someone in particular within or outside the ILLC, who you think could give us some particular insights that could be useful for the project?
+- Considering [[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]], how many credits would you estimate for the project? Does it get decided before or after the project is done? 
+- Is it possible to make it so that, every research project of each student is independent so that the amount of credits and work done by each student can vary significantly?
+- Is it possible to receive a mark for the project instead of just to pass the module?
+#### To Prof. van den Berg
+- Are you interested in supervising the project? To answer, you may consider:
+	- The presentation of the project as in [[Structuralism & Categories (Homepage)#Project Structure & Goals]] 
+	- Despite the high EC of the project ([[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]]), we expect to work autonomously and supervision will be also shared with Dr. Enrico Cinti.
+- If not, is there some other member of the faculty in your field you would suggest?
+
 If the thing gets big enough, I may want to have some roles so that everyone knows what their job is, in particular I need:
 - **Responsible of Math Supervision**: check that all proofs, theorems and lemmas are sound
 - **Responsible of Physics Supervision**: check facts are true
@@ -73,3 +97,10 @@ To do after upload:
 		1. Each student shall have their own plan and schedule
 			- This will be submitted before the begin of the Christmas Vacation to the supervisors so that they can estimate the EC that will be assigned to each one of the students.
 		2. We organise some check-points during the 3rd period so that we can discuss the present state of the work.
+
+--- 
+###### Category Theory
+- Do you think that the literature on Morita Equivalence is accessible to students who completed the course in Category Theory? If not, is there some resource you would suggest to get to the required level?
+- It may be useful to have some knowledge on the processes used to _translate_ the mathematical praxis from the familiar set-theoretic foundation to the categorical one. In particular, this may be employed to have a more _categorical_ understanding of those scientific theories which have already been formalised in standard (hence set-theoretic) mathematics. I imagine such a literature may be found in categorical foundations of mathematics.
+###### Philosophy of Science
+Most literature questions have already been addressed, new ones will certainly come up.
