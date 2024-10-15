@@ -22,7 +22,28 @@ In general, there are three roads that I may consider:
 3. Try to work for one year
 
 I clearly have preferences among these three scenarios, that is, I would definitely prioritise the first option but only if that is in one of my favourite universities. With a similar approach as above, I almost solely consider the best possible scenario, i.e. I see what I should do to get in a PhD position I would really like; if that will not be the case, I will take into consideration the alternatives.
+### Applying for PhD Positions
+Given that I am unsure in which topic I want to write the thesis, I am clearly unsure on the precise filed in which i want to do my PhD and therefore picking one department becomes particularly complicated.
+
+**Complications with US Applications**: there are several difficulties in applying in universities in the US, since I would not have my [[M.Sc. Logic (UvA)]] completed by that time. Deadlines seem to be around January (at least this is the case for Princeton) and by that time I would have done the first semester, which could actually already be most of the credits other than the thesis. On top of that, I can also submit data linked to the website, which will then be updated (in case marks were still to come by the deadline).
 #### Candidate PhD Positions
-- Princeton (Halvorson)
-- MCMP (Leitgeb)
-- ILLC
+I divide here the applications I will do in the US and those I will do in Europe, since the deadlines, procedure and general structure of the studies are radically different. In general, I would both appreciate an experience in the US personally and I would also enjoy to have some more taught courses, since I cannot yet feel to have a broad enough background to properly do research.
+
+**PhD Position in the US**: here I list all those that may be interesting and to which I consider applying:
+- _Berkley University_: [link](https://logic.berkeley.edu/admission.html)
+- _Carnegie Mellon University_: [link](https://www.cmu.edu/dietrich/philosophy/graduate/phd/index.html)
+- _Princeton_: [link](https://philosophy.princeton.edu/graduate/special-programs)
+	- I would have a strong application due to [[Structuralism & Categories (Homepage)]] with Halvorson
+- _Stanford_: [link](https://bulletin.stanford.edu/programs/PHILO-PHD)
+	- I followed a course by Prof. Zalta and [Prof. van Bentham](https://philosophy.stanford.edu/people/johan-van-benthem) has history at the ILLC
+
+Q: Is there any other university I should consider?
+
+**PhD Positions in EU**: applying to European positions should be less pressing with deadlines, I consider applying:
+- _University of Amsterdam: ILLC_
+- _Ludwig Maximilian University: MCMP_
+- _Oxford University_: DPhil
+- (Vienna?)
+- (Constance?)
+
+Q: Is there any other university I should consider? Perhaps outside US & EU?

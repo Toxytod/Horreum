@@ -15,7 +15,7 @@ draft: true
 - [ ] Spam messages around (?)
 - [ ] Make undecided people decide 
 - [ ] Bureaucratic confirmation from Jennifer
-- [ ] To: Cinti & Tugba, can you supervise?
+- [x] To: Cinti & Tugba, can you supervise?
 - [x] Update team's page
 
 
