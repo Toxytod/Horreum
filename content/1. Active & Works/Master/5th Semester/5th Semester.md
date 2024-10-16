@@ -3,7 +3,7 @@ draft: false
 date: 2024-08-02
 ---
 #### List of Courses
-The semester is divided in two periods, in each one of the periods I plan to have four courses that begin and end in the period (of 6EC each) and three courses that last the whole semester. This means that I would make 24EC per period + 17EC for the latter three courses, hence for a total of 24 + 24 + 17 = 65 EC. To this, one shall add the research projects, that I plan to do for 12 - 15 EC, getting to a total of 77 - 80EC. This scenario guarantees me the possibility to write the thesis during the [[6th Semester]] and finish the [[M.Sc. Logic (UvA)]] in one year.
+The semester is divided in two periods, in each one of the periods I plan to have four courses that begin and end in the period (of 6EC each) and three courses that last the whole semester. This means that I would make 24EC per period + 17EC for the latter three courses, hence for a total of 24 + (24 to 36) + 17 = 65 to 77 EC. To this, one shall add the research projects, that I plan to do for 15 EC (see [[Structuralism & Categories (Supervisor's Page)#Bureaucracy]]), getting to a total of 80 to 92EC. This scenario guarantees me the possibility to write the thesis during the [[6th Semester]] and finish the [[M.Sc. Logic (UvA)]] in one year.
 ###### 1st Year, 1st Period
 The courses of a period make up to 24EC + 17EC
 - [[Category Theory (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119637), 8EC*)
@@ -14,19 +14,19 @@ The courses of a period make up to 24EC + 17EC
 - [[Meaning, Reference and Modality (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/114708), 6EC)
 - [[Mathematical Proof Methods for Logic (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119339), 6EC)
 ###### 1st Year, 2nd Period
-The courses of a period make up to 24EC + 17EC (perhaps a little more)
+The courses of a period make up to (24 to 36) + 17EC 
 - [[Category Theory (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119637), 8EC*)
 - [[Introduction to Modal Logic (Lecture)]], ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118738), 6EC*)
 - [[Logic, Language and Computation (Lecture)]], ([link](), 3EC*)
 - Proof Theory (Lecture) ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118880), 6EC)
 - Topics in Modal Logic (Lecture), ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/119338), 6EC)
 - Philosophical Logic (Lecture) ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025-en/search-course/course/118758), 6EC)
-- Dynamic Epistemic Logic ([link]() 6EC)
-- (Philosophy of Cognition)
-- (Philosophy of Logic)
+- Dynamic Epistemic Logic ([link]() 6EC, \[Essay\])
+- Philosophy of Cognition  ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025/zoek-vak/vak/114788), 6EC, \[Essay\])
+- Philosophy of Logic ([link](https://studiegids.uva.nl/xmlpages/page/2024-2025/zoek-vak/vak/115094), 6EC, \[Essay\])
 ###### 1st Year, 3rd Period
 Here I list the potential research projects
-- [[Structuralism & Categories (Homepage)]]
+- [[Structuralism & Categories (Homepage)]], estimated 15EC, see [[Structuralism & Categories (Supervisor's Page)#Bureaucracy]]
 ---
 ## Decision Process
 Here I keep the reasoning I made for getting to the full list of courses I took in my 5th Semester
