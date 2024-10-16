@@ -29,7 +29,7 @@ Per questioni di spazio di archiviazione del sito, non carico le slides in PDF; 
 	- [Overleaf: ADT Aritmetica I](https://www.overleaf.com/read/hjfbmntzrwyg#fb9f3f)
 - **Martedì 15**, _Matematica_: Aritmetica I (bis)
 	- Finiremo gli esercizi iniziati nella lezione scorsa approfondendo gli argomenti annunciati o chiesti in classe, in particolare: criteri di divisibilita per numeri prima e la differenza tra equazioni impossibili ed indeterminate (in partcolare come gestirle nella risoluzione di sistemi).
-	- Lezioni _On Demand_ rilevanti Matematica: 7 - 11
+	- Lezioni _On Demand_ rilevanti Matematica: 7 - 9
 - **Martedì 22**, _Matematica_: Aritmetica II
 	- Vedremo il minimo comune multiple, calcoli con le frazioni e le proporzioni, anche in questa lezione avremo molto tempo da dedicare agli esercizi.
 	- Lezioni _On Demand_ rilevanti Matematica: 7 - 11

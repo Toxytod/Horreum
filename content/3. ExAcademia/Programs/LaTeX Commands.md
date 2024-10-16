@@ -86,6 +86,7 @@ Here is the code I usually add to all documents created after October 2024 which
 \newtheorem*{corollary}{Corollary}
 \newtheorem*{theorem}{Theorem}
 \newtheorem*{lemma}{Lemma}
+\newtheorem*{answer}{Answer}
 
 \theoremstyle{remark}
 \newtheorem{Remark}[Definition]{Remark}
