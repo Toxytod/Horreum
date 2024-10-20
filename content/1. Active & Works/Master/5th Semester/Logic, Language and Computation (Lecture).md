@@ -12,6 +12,7 @@ I followed this course during my [[5th Semester]] at the [[University of Amsterd
 - [Overleaf: LoLaCo, 5](https://www.overleaf.com/read/pfqwhqjjkqjm#191e1e)
 - [Overleaf: LoLaCo, 6](https://www.overleaf.com/read/rtbnsyhmjxbp#4fd4c2)
 - [Overleaf: LoLaCo, 7](https://www.overleaf.com/read/bgfcrsyhxwsx#ef5b3d)
+
 **Interviews**
-- [Overleaf: LoLaCo, Int. 1](https://www.overleaf.com/read/rmvgfdpgwcbb#3da1f7)
+- [Overleaf: LoLaCo, Int. 1](https://www.overleaf.com/read/rmvgfdpgwcbb#3da1f7) (Enrico Cinti), in this interview I proposed him first to supervise [[Structuralism & Categories (Homepage)]].
 - [Overleaf: LoLaCo, Int. 2](https://www.overleaf.com/read/gdndgwnncrrr#bd007b)

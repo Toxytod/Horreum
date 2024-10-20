@@ -216,9 +216,130 @@ Relevant courses in [[Index of Bachelor Works#Philosophy of Language]] I took ar
 	- ....
 #### 08.10, VII. Dynamic Semantics
 - the order syntactical natural sentences are said, makes a difference (pronouns, temporal/causal order...)
+- _Truism_, three versions
+	1. _Stalnaker_: "acts of assertion affect \[...\] the context, in particular the attitudes of the participants in the situation."
+	2. _Kamp_: "the interaction between context and utterance is reciprocal."
+	3. _Veltman_: "you know the meaning of a sentence if you know the change it brings about in the information of state of anyone who accepts the news conveyed by it."
 - Dynamic Predicate Logic: **DPL**
-	- in DPL: $\exists_x (\varphi) \land \psi \Leftrightarrow^! \exists_x(\varphi \land \psi)$ 
-- 
+	- in DPL: $\exists_x (\varphi) \land \psi \Leftrightarrow^! \exists_x(\varphi \land \psi)$ (Egli's Theorem), S.3.10
+		- ==S.3.11, connection with $wRv \to \forall_x(xRw \to x = v)$, i.e. unique predecessor?==
+		- $(\exists_x \phi \to \psi) \Leftrightarrow^! \forall_x(\phi \to \psi)$, S.3.12
+	- **Syntax**: the signature is the same as the one of $\mathcal{L}_{ML}$ 
+		- a _model_ $\mathcal{M} = \langle \mathcal{D}, \mathcal{I} \rangle$, s.t. for every relation $\mathcal{I}(R) \subseteq D^n$
+			- variable assignments are functions $V \to \mathcal{D}$
+		- if you use $\exists_x$ you introduced $x$, further appearances of $x$ are pronouns referring to it.
+			- formally: the variable assignment $g$ gets updated to $h$ after the formula $\phi$, write $g [ \![ \phi]\!]_\mathcal{M} h$
+	- **Semantics**
+		- $M, g \models \phi$ iff $\exists_h g [ \![ \phi]\!]_\mathcal{M} h$
+			- $g [ \![ R(x_1, ..., x_n)]\!]_\mathcal{M} h$ iff $g = h \land \langle g(x_1), ..., g(x_n) \rangle \in \mathcal{I}_\mathcal{M}(R)$
+			- $g [ \![ \lnot \phi]\!]_\mathcal{M} h$ iff $g = h \land \lnot \exists_h g [ \![ \phi]\!]_\mathcal{M} h$
+			- $g [ \![ \phi \land \psi]\!]_\mathcal{M} h$ iff $\exists_k g [ \![ \phi]\!]_\mathcal{M} k [ \![ \psi]\!]_\mathcal{M} h$
+			- $g [ \![\exists_x \phi]\!]_\mathcal{M} h$ iff $\exists_k g [x] k [ \![ \phi]\!]_\mathcal{M} h$
+				- $g[x]k$ says that $g|_{V \setminus \{x\}} = k|_{V \setminus \{x\}}$ 
+		- $\phi_1, ..., \phi_n \models \psi$ iff $\forall_{\mathcal{M}}\forall_{g, h} g [ \![ \phi_1, ..., \phi_n]\!]_\mathcal{M} h \Rightarrow \mathcal{M}, h \models \psi$
+	- **Nothing New**: define $(\cdot)^\clubsuit: \mathcal{L}_{DPL} \to \mathcal{L}_{FOL}$ s.t. $\mathcal{M}, g \models_{DPL} \phi^\clubsuit$ iff $\mathcal{M}, g \models_{FOL} \phi^\clubsuit$ 
+		- $g [\![ \phi^\clubsuit]\!] h$ iff $g [\![ \phi]\!] h$ (signature is the same, hence it makes sense)
+		- Define $\phi^\clubsuit$ recursively:
+			- $(\cdot)^\clubsuit|_{\text{Atom}\cup \mathcal{L}_{PL}} = id$
+			- $(\exists_x \phi \land \psi) = (\exists(\phi \land \psi))^\clubsuit$
+		- Hence: DPL $=$ FOL $+$ Egli's Theorem
+	- **Further Features**
+		- $\lnot$ in front of an existential, eliminates the _binding power_
+			- similarly $\forall_x \phi$, $\chi \to \psi$, $\chi \lor \psi$
+				- ==not trivial cases right? $\psi = \chi$ or $\phi(x) = \phi$.
+				- $\phi \not \Leftrightarrow \lnot \lnot \phi$ 
+				- $\exists_x \phi \not \Leftrightarrow \lnot \forall_x \phi$
+				- $(\phi \land \psi) \not \Leftrightarrow \lnot(\phi \to \lnot \psi)$ 
+			- "$\lnot$", "$\land$", "$\exists$" are enough to define everything
+				- but not other combinations
+		- Also: 
+			- ==S.3.28==
+			- $(\exists_x F x \land Gx) \not \Leftrightarrow (\exists_y F y \land G x)$ ($\alpha$-conversion)
+			- Entailment is horrible
+				- non-monotone
+					- $(Fx \land \exists_x Gx) \not \Leftrightarrow (\exists_x Gx \land Fx)$
+					- $\exists_x Fx \models Fx$
+					- $\exists_x Fx, \exists_x \lnot Fx \not \models Fx$
+					- $\exists_x \lnot F x, \exists_x Fx \models Fx$
+				- non-reflexive
+					- $\phi \not \models \phi$
+						- ==ervik is first and now Verldkamp takes the lead. So Ervik...(?)==
+				- non-transitive
+					- $\lnot \lnot \exists_x Px \models \exists_x Px \models Px$
+					- $\lnot \lnot \exists_x Px \not \models Px$
+- **Update Semantics**:
+	- $s[\![ p]\!] = \{i \in s : i(p)=1\}$
+		- $G[\![ R(x_1, ..., x_n) \!]] = \{ g \in G : \langle g(x_1), ..., g(x_n) \rangle \in I(R) ]\!]$
+	- $s[\![ \neg \varphi]\!] = s \setminus s[\![ \varphi]\!]$
+		- $G[\![ \neg \phi ]\!] = \{ g \in G : G[\![ \phi ]\!] = \emptyset ]\!]$
+	- $s[\![ \varphi \land \psi]\!] = s[\![ \varphi]\![\![ \psi]\!]$
+		- ==isn't this the intuition of implication? Given phi then psi==
+		- $G[\![ \phi \wedge \psi ]\!] = G[\![ \phi ]\!][\![ \psi ]\!]$
+	- $s[\![ \varphi \to \psi ]\!] = \{i \in s : \text{if } i \in s[\![ \varphi ]\!] \text{ then } i \in s[\![ \psi ]\!]\}$
+	- $s[\![ \Diamond \varphi]\!] = \{i \in s : s[\![ \varphi]\!] \neq \emptyset\}$
+	- $s[\![ \Box \varphi ]\!] = \{i \in s : s \subseteq s[\![ \varphi ]\!]\}$
+	- $G[\![ \exists_x \phi \!]] = \bigcup_{d \in D} G[x/d][\![\phi \!]] ]\!]$
+	- **Unfriendly Entailment Again**
+		- non-reflecive
+			- $(\Diamond p \land \lnot p) \not \models (\diamond p \land \lnot p)$
+		- non-monotone
+			- $\Diamond p \models \Diamond p$ but $\Diamond p, \lnot p \not \models \Diamond p$ 
+- **Coreference and Modality**
+	- _Referent Systems_
+		- $dom(r) = X \subseteq V$, 
+		- $ran(r) = n = \{m: m < n\}$ ==Notation!!==
+	- _Assignment_: $g$ is an assignment for $r$ if:
+		- $dom(g) = ran(r) \land ran(g) \subseteq D$ ==Notation!!! S. 39==
+	- _Extension of a referent system_, S.3.40
+	- _Possibility_ triple $\langle r, g, w\rangle$
+		- $r$ a ref.sys., $g$ an ass.func.$r$ and $w$ an interpretation function
+    - _Interpretation in Possibility_
+        - The interpretation $i(t)$ of a term $t$ in possibility $i = \langle r, g, w \rangle$:
+            - $i(c) = w(c)$ for constants $c$
+            - $i(x) = g(r(x))$ for variables $x$
+            - $i(d) = d$ for demonstratives $d$
+    - _Update of an Information State_
+        - The update $s[\![ \varphi ]\!]$ of an information state $s$ by formula $\varphi$:
+            - $s[\![ Rt_1, ..., t_n ]\!] = \{ i \in s \mid \langle i(t_1), ..., i(t_n) \rangle \in i(R) \}$
+            - $s[\![ \neg \varphi ]\!] = \{ i \in s \mid \neg \rightarrow i': i \leq i' \land i' \in s[\![ \varphi ]\!] \}$
+            - $s[\![ \varphi \land \psi ]\!] = s[\![ \varphi ]\!][\![ \psi ]\!]$
+            - $s[\![ \Diamond \varphi ]\!] = \{ i \in s \mid s[\![ \varphi ]\!] \neq \emptyset \}$
+            - $s[\![ \forall x \varphi ]\!] = \bigcap_{d \in D}(s[x/d][\![ \varphi ]\!]),$ where $s[x/d] = \{ i[x/d] \mid i \in s \}$
+        - Not: $s[\![ \forall x \varphi ]\!] = \left( \bigcap_{d \in D} s[x/d] \right)[\![ \varphi ]\!]$. (Long Story!)
+	- Some Metalinguistic Properties
+	    - _Consistency_: if $s[\![ \varphi ]\!] = \emptyset$ for some $s$ (in some model $M$)
+	        - So $\varphi$ is acceptable.
+	        - $(\Diamond p \land \lnot p)$ is consistent
+	        - $(\lnot p \land \Diamond p)$ is not consistent
+	        - $((\Diamond p \land \lnot p) \land (\Diamond p \land \lnot p))$ is not consistent
+	        - $\Diamond (t_1 = t_2) \land \Diamond \lnot(t_1 = t_2))$
+		        - is consistent if $t_1$ or $t_2$ is a constant or free variable
+		        - is inconsistent if $t_1$ and $t_2$ are ==demonstratives== or bound variables
+	    - _Support_: if $s \models \varphi$, then $\forall i \in s \rightarrow i' \in s[\![ \varphi ]\!] : i \leq i'$ (in model $M$)
+	        - No elimination of possibilities; but possibilities may grow.
+	    - _Entailment_: if $s[\![ \varphi ]\!] \models \psi$ for all $s$ (in all models $M$)
+	        - Never elimination of any possibilities; always licensed to grow.
+	        - e.g. $s [\![ \Diamond (d_1 = a); \Diamond (d_2 = a)]\!] \models \forall_z \Diamond (z = a)$
+	    - _Coherence_: if $s \models \varphi$ for some $s = \emptyset$ (in some model $M$)
+	        - So $\varphi$ is supportable
+	        - $(\Diamond p \land \lnot p)$ is not coherent
+	        - $\Diamond P(t) \land \Diamond \lnot P(t)$ is always coherent
+	        - Note: Coherence implies consistency.
+	- Some Lost Properties
+	    - _Associativity_: $(\varphi \land (\psi \land \chi)) \equiv ((\varphi \land \psi) \land \chi)$
+	    - _Idempotence_: $\varphi \not\equiv (\varphi \land \varphi)$ (for certain $\varphi$)
+	    - _Commutativity_: $(\varphi \land \psi) \not\equiv (\psi \land \varphi)$ (for certain $\varphi$ and $\psi$)
+	- Existential Generalisation
+	    - $\forall_x \phi \models^? [t/x] \phi$
+		    - True if $t$ is a demonstrative or is bound
+		    - False if $f$ is a free variable or an individual constant
+			    - Everybody can not be Dr. Livingstone, but he needs to be himself
+			        - $\forall_x \Diamond( x \not = L) \not \models \Diamond ( L \not = L)$ 
+		- $[t/x] \phi \models^? \exists_x \phi$
+			- True if $t$ is a demonstrative or a bound variable
+			- False if $t$ is a free variable or name
+
+
 ## Questions
 ### Alternative Semantics to Modal Predicate Logic
 We have defined in [[Meaning, Reference and Modality (Lecture)#24.09, V. Kripke & Modal Predicate Logic]] the semantic that answers to the very natural question of how one can introduce first order logic in modal logic. Here I present a semantics that I claim to be equivalent to the presented one but that is simpler in two ways: (i) it does not require the introduction of three valued Weak Kleene Logic and (ii) it does not require the introduction of the reversed semantic consequence symbol.

@@ -137,4 +137,10 @@ Here I summarise the content of the lecture and state brief remarks on the paper
 		- _macro-level_: science as a whole
 		- _meso-level_: scientific community
 		- _micro-level_: individuals
-		- Closely related to 
+
+#### 17.10
+- Putnam & Oppenheim, _Unity of Science as a Working Hypothesis_
+	- One only discipline: Science
+		- Same law, same laws, and coherent laws
+	- Reducibility of a theory: $T_1$ reduces $T_2$ iff
+		- vocabulary in $T_2$ contains terms not in the vocabulary of $T_1$

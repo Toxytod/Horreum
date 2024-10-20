@@ -17,6 +17,19 @@ Other than me (I present myself already in [[Structuralism & Categories (Homepag
 We will mainly work during the third block, as a research project at the UvA should be meant to be (at least for the Master of Logic, if that were not the case for MSc. Physics, we will find some solutions). Though, I plan to organise some meetings, perhaps at the beginning of the second period, when things will be decently calm again, to have all the basics in the field and plan the project together. This will probably consist of 3 - 5 times in which we meet at the Science Park to discuss papers we read before (just like a reading group). We will establish the papers together with the supervisors, but with all probability there will be: [[Halvorson, H. (2012), What Scientific Theories Could not Be]].
 
 Each one of the student, according to the plans we will make while moving on, should be able to decide the amount of work they're willing to put into the project and get the respective credits. All of this will be asked to the supervisors (see [[Structuralism & Categories (Supervisor's Page)#Organisational Q&A]]).
+### Reading Meetings
+Before starting the writing part of the project, whose structure I divide in [[Structuralism & Categories (Team's Page)#Project's Tracks]], we will explore different topics in the literature to ensure that everyone has a sufficient background to participate and understand every or most components of the final output of the project. Here I list the topics that we prioritise in this first investigation of the literature:
+- Structuralism: what is the most precise way we have to state the structuralist claim?
+	- \[TBA Paper 1\]
+	- \[TBA Paper 2\]
+- Syntactic & Semantic view on theories
+	- \[TBA Paper 3\]
+- Theoretical Equivalence
+	- [[Halvorson, H. (2012), What Scientific Theories Could not Be]]
+	- [[Halvorson, H. (2013), The semantic view, if plausible, is syntactic]]
+- Morita Equivalence
+	- Halvorso, H.(2015), Morita Equivalnece
+	- nLab Morita Equivalence
 ### Project's Tracks
 In the broader project, there will be some smaller tracks designed by team members, based on the claims we’ve developed during our discussions and paper readings. I divide these tracks into two distinct types. The first are background tracks, which provide foundational concepts on a particular topic without introducing anything new to the existing literature ([[Structuralism & Categories (Team's Page)#Background Tracks]]). The second are tracks that present a specific claim on topics previously introduced ([[Structuralism & Categories (Team's Page)#Claim Tracks]]). It is crucial to maintain harmony between these two types, ensuring that any thesis we put forward is properly supported by prior introduction of the relevant concepts.
 ##### Background Tracks

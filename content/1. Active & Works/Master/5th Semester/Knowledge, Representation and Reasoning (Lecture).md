@@ -106,5 +106,21 @@ num(1..2) %all nums in between
 #### 23.09, VI. Games with ASP
 - we use `T = #sum {C, X, Y, Z : P(X), P(Y)}` sums only `C`s but allows the sum of two equal `C`s if the `X, Y, Z` are different.
 - `D = #count { M : edge(N, M, C)}` workds similarly, or also `#max`
-#### 04.10, X. More Theoretical Foundations
-- 
+#### 18.10, Summary
+- **Syntax**
+	- _normal logic programs_
+		- containing only rules of the form: `a :- g, c, d, not e, not f`
+	- _extensions_:
+		- include variables `X, Y
+		- choice rules (with cardinality constrains)
+		- aggregates (`#sum, #count`)
+- **Semantic**
+	- _Interpretations_ $M \subseteq Atom(P)$ 
+	- _Models_ $M$ are interpretations that make all rules of the program true
+	- _Supported Models_ $M$ are models where each atom $a \in M$ is supported
+	- _Answer Sets_ $M$ are minimal models of the riduct $P^M$
+- **More Theory**
+	- ==_Clark Completion_==: translate the program
+		- Exam: not going to make us write the clark completion of a program down
+	- ==_Unfounded Sets_==: 
+	- 

@@ -22,46 +22,7 @@ draft: true
 Beuracracy:
 - One project supervised by Benno & Enrico, 6EC to each one of the participants
 - One project supervised by Enrico only, 6 - 9 ECs to each one of the participants (Q: can Enrico supervise the project?)
-### Organisational Q&A
-In particular here are a list of the main questions that should be answered before getting started with the project:
-- Is there someone in particular within or outside the ILLC, who you think could give us some particular insights that could be useful for the project?
-- Considering [[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]], how many credits would you estimate for the project? Does it get decided before or after the project is done? 
-- Is it possible to make it so that, every research project of each student is independent so that the amount of credits and work done by each student can vary significantly?
-- Is it possible to receive a mark for the project instead of just to pass the module?
-#### To Prof. van den Berg
-- Are you interested in supervising the project? To answer, you may consider:
-	- The presentation of the project as in [[Structuralism & Categories (Homepage)#Project Structure & Goals]] 
-	- Despite the high EC of the project ([[Structuralism & Categories (Homepage)#Hours of Work, Credits and Expected Length]]), we expect to work autonomously and supervision will be also shared with Dr. Enrico Cinti.
-- If not, is there some other member of the faculty in your field you would suggest?
 
-If the thing gets big enough, I may want to have some roles so that everyone knows what their job is, in particular I need:
-- **Responsible of Math Supervision**: check that all proofs, theorems and lemmas are sound
-- **Responsible of Physics Supervision**: check facts are true
-- **Responsible of Overall Coherence**: that everything fits
-- **Responsible of Grounding**: check that every notion is defined & well explained either in the [[Structuralism & Categories (Team's Page)#Claim Tracks]] itself or in some of the [[Structuralism & Categories (Team's Page)#Background Tracks]].
-- **Writer** of a single Track
-- **Cowriter** of a single Track, needs to check that it makes sense, not necessary for all.
-
-The project credits will likely reflect the roles each participant takes.
-#### **Overseer's Roles**
-These roles are primarily focused on technical accuracy and correctness:
-
-- **Head of Math Oversight**: Ensures that all mathematical proofs, theorems, and lemmas are logically sound and accurate.
-- **Head of Physics Oversight**: Verifies that all physical facts and calculations are scientifically accurate and consistent with established principles.
-
-In contrast, the following roles ensure coherence and clarity across the work:
-
-- **Head of Overall Coherence**: Ensures that all sections of the project fit together logically and consistently without contradictions.
-- **Head of Conceptual Grounding**: Verifies that all notions are properly defined and thoroughly explained, either within the main content or referenced from background material.
-
-#### **Active Roles**
-These positions focus on content creation and development:
-
-- **Writer of a Single Track**: Responsible for creating the primary content of a specific track.
-- **Cowriter of a Single Track**: Assists in ensuring clarity and coherence in a particular track.
-### Paths to Explore
-- Sittoni 25.09, 21:00 whatsapp chat: 
-- Reformulation of [[Structure on Models]]
 ## Rumenta
 
 - Max: a little but no
