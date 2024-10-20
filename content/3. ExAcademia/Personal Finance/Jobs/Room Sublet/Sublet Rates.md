@@ -1,7 +1,7 @@
 ---
 draft: 
 date: 2024-09-01
-title: Payment Options
+idk: 2024-10-20
 ---
 This page provides all the necessary information regarding the payment options for your stay. Below you find details on rates for single and double guests, as well as special rates for specific periods. Payment options are listed at the end.
 ## 💰 Deposit
@@ -51,4 +51,6 @@ If you wish to have the whole room to yourself, with no one else (not even me) p
 	- **BIC/SWIFT:** ISYBITMM
 	- **Bank Name:** Isybank by Intesa San Paolo, Italy
 
-Any amount of cash above 50€ is not accepted for safety reasons. Also Paypal payments above 10€ are not accepted if the customer does not reserve to pay the respective fees, around 3% of the total sum.
+Any amount of cash above 50€ is not accepted for safety reasons. Also Paypal payments above 10€ are not accepted if the customer does not reserve to pay the respective fees, around 4% of the total sum.
+
+Cash payments over 50€ are accepted for the deposit only if the guest agrees on the schedule constrains for the pay-back. If that does not fit and/or the guest checks out later than planned, it will result in a detraction from the deposit of 15€.
